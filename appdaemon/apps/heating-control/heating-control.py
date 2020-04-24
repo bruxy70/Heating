@@ -5,47 +5,8 @@ import voluptuous_helper as vol_help
 from datetime import datetime, time, timedelta
 
 """
-When nobody is home, regulate temperature around set temperature
-by turning off and on the hearing.
-When somebody is home, leave the control on.
-When it is on, it is controlled by the heating automation.
-Arguments:
-- switch_heating            - (required) entity_id to turn heaiting on and off
-- somebody_home             - (required) entity_id - is somebody home? 
-                              (in Auto mode, heating is on when somebody is home - unlike Eco mode that turns it off on tempearture theshold even if somebody is home)
-- heating_mode              - (required) entity_id - values: On, Off, Auto, Eco, Vacation
-- temperature_vacation      - (required) entity_id - temperature for mode Vacation
-- rooms:
-  - sensor                  - (required) entity_id - temperature sensor
-  - day_night               - (required) entity_id - 'on' for day (high) temperature
-  - temperature_day         - (required) entity_id - high temperature
-  - temperature_night       - (required) entity_id - low temperature
-  - thermostats             - (required) entity_id - list of thermostats in the room
-
-configuration example (in AppDaemon's apps.yaml):
-
-heating-control:
-  module: heating-control
-  class: HeatingControl
-  switch_heating: switch.heating
-  somebody_home: input_boolean.somebody_home
-  heating_mode: input_select.heating_mode
-  temperature_vacation: input_number.temperature_vacation
-  rooms:
-  - sensor: sensor.teplota_living_toom
-    day_night: input_boolean.livingroom_day_night
-    temperature_day: input_number.livingroom_day
-    temperature_night: input_number.livingroom_night
-    thermostats:
-    - climate.termostat_living_room
-    - climate.termostat_dining_area
-
-To run this script, you need to install the AppDaemon Add-on
-And inclide these packages in its configuration:
-  "python_packages": [
-    "datetime",
-    "voluptuous"
-  ]
+Sets the thermostats target temperature and switches heating on and off. Also adds the current temperature and heating mode to the thermostats.
+For the documentation see https://github.com/bruxy70/Heating
 """
 
 # Here you can change the modes set in the mode selector (in lower case)
