@@ -229,9 +229,9 @@ class HeatingControl(hass.Hass):
     ):
         """Set the thermostat attrubutes and state"""
         if target_temp is None:
-            target_temp = self.get_target_temp(termostat=entity_id)
+            target_temp = self.__get_target_temp(termostat=entity_id)
         if current_temp is None:
-            current_temp = self.get_current_temp(termostat=entity_id)
+            current_temp = self.__get_current_temp(termostat=entity_id)
         if mode is None:
             if self.is_heating():
                 mode = HVAC_HEAT
@@ -254,14 +254,14 @@ class HeatingControl(hass.Hass):
                 "climate/set_temperature", entity_id=entity_id, temperature=target_temp
             )
 
-    def __get_target_room_temperature(self, room) -> float:
+    def __get_target_room_temp(self, room) -> float:
         """Returns target room temparture, based on day/night switch (not considering vacation)"""
         if bool(self.get_state(room[ATTR_DAYNIGHT]).lower() == "on"):
             return float(self.get_state(room[ATTR_TEMPERATURE_DAY]))
         else:
             return float(self.get_state(room[ATTR_TEMPERATURE_NIGHT]))
 
-    def get_target_temp(self, sensor: str = None, termostat: str = None) -> float:
+    def __get_target_temp(self, sensor: str = None, termostat: str = None) -> float:
         """Get target temperature (basd on day/night/vacation)"""
         if self.get_mode() == MODE_VACATION:
             return float(self.get_state(self.__temperature_vacation))
@@ -270,13 +270,13 @@ class HeatingControl(hass.Hass):
         for room in self.__rooms:
             if sensor is not None:
                 if room[ATTR_SENSOR] == sensor:
-                    return self.__get_target_room_temperature(room)
+                    return self.__get_target_room_temp(room)
             else:
                 if termostat in room[ATTR_THERMOSTATS]:
-                    return self.__get_target_room_temperature(room)
+                    return self.__get_target_room_temp(room)
         return None
 
-    def get_current_temp(self, sensor: str = None, termostat: str = None) -> float:
+    def __get_current_temp(self, sensor: str = None, termostat: str = None) -> float:
         """Get current temperature (from temperature sensor)"""
         if sensor is not None:
             return float(self.get_state(sensor))
@@ -334,7 +334,7 @@ class HeatingControl(hass.Hass):
             ):
                 self.log(f"updating sensor {room[ATTR_SENSOR]}")
                 temperature = float(self.get_state(room[ATTR_SENSOR]))
-                target_temperature = self.__get_target_room_temperature(room)
+                target_temperature = self.__get_target_room_temp(room)
                 if self.is_heating():
                     mode = HVAC_HEAT
                 else:
