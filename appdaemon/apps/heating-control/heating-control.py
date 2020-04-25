@@ -176,6 +176,7 @@ class HeatingControl(hass.Hass):
         some_below = False
         all_above = True
         minimum = None
+        vacation_temperature = float(self.get_state(self.__temperature_vacation))
         for room in self.__rooms:
             sensor_data = self.get_state(room[ATTR_SENSOR])
             if (
@@ -186,12 +187,9 @@ class HeatingControl(hass.Hass):
                 continue
             temperature = float(sensor_data)
             if self.get_mode() == MODE_VACATION:
-                target = float(self.get_state(self.__temperature_vacation))
+                target = vacation_temperature
             else:
-                if bool(self.get_state(room[ATTR_DAYNIGHT]).lower() == "on"):
-                    target = float(self.get_state(room[ATTR_TEMPERATURE_DAY]))
-                else:
-                    target = float(self.get_state(room[ATTR_TEMPERATURE_NIGHT]))
+                target = self.__get_target_room_temp(room)
             if temperature < target:
                 all_above = False
             elif temperature < (target - HYSTERESIS):
