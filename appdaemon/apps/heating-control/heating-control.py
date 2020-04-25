@@ -16,6 +16,11 @@ MODE_AUTO = "auto"
 MODE_ECO = "eco"
 MODE_VACATION = "vacation"
 
+HYSTERESIS = 1.0  # Difference between the temperature to turn heating on and off (to avoid frequent switching)
+MIN_TEMPERATURE = 10  # Always turn on if teperature is below
+LOG_LEVEL = "INFO"
+
+# Other constants - do not change
 HVAC_HEAT = "heat"
 HVAC_OFF = "off"
 ATTR_SWITCH_HEATING = "switch_heating"
@@ -35,12 +40,6 @@ ATTR_HVAC_MODES = "hvac_modes"
 ATTR_TEMPERATURE = "temperature"
 ATTR_UNKNOWN = "unknown"
 ATTR_UNAVAILABLE = "unavailable"
-
-LOG_LEVEL = "INFO"
-
-HYSTERESIS = 1.0
-
-MIN_TEMPERATURE = 10
 
 
 class HeatingControl(hass.Hass):
@@ -179,7 +178,11 @@ class HeatingControl(hass.Hass):
         minimum = None
         for room in self.__rooms:
             sensor_data = self.get_state(room[ATTR_SENSOR])
-            if sensor_data is None or sensor_data == ATTR_UNKNOWN or sensor_data == ATTR_UNAVAILABLE:
+            if (
+                sensor_data is None
+                or sensor_data == ATTR_UNKNOWN
+                or sensor_data == ATTR_UNAVAILABLE
+            ):
                 continue
             temperature = float(sensor_data)
             if self.get_mode() == MODE_VACATION:
@@ -251,6 +254,13 @@ class HeatingControl(hass.Hass):
                 "climate/set_temperature", entity_id=entity_id, temperature=target_temp
             )
 
+    def __get_target_room_temperature(self, room) -> float:
+        """Returns target room temparture, based on day/night switch (not considering vacation)"""
+        if bool(self.get_state(room[ATTR_DAYNIGHT]).lower() == "on"):
+            return float(self.get_state(room[ATTR_TEMPERATURE_DAY]))
+        else:
+            return float(self.get_state(room[ATTR_TEMPERATURE_NIGHT]))
+
     def get_target_temp(self, sensor: str = None, termostat: str = None) -> float:
         """Get target temperature (basd on day/night/vacation)"""
         if self.get_mode() == MODE_VACATION:
@@ -260,16 +270,10 @@ class HeatingControl(hass.Hass):
         for room in self.__rooms:
             if sensor is not None:
                 if room[ATTR_SENSOR] == sensor:
-                    if bool(self.get_state(room[ATTR_DAYNIGHT]).lower() == "on"):
-                        return float(self.get_state(room[ATTR_TEMPERATURE_DAY]))
-                    else:
-                        return float(self.get_state(room[ATTR_TEMPERATURE_NIGHT]))
+                    return self.__get_target_room_temperature(room)
             else:
                 if termostat in room[ATTR_THERMOSTATS]:
-                    if bool(self.get_state(room[ATTR_DAYNIGHT]).lower() == "on"):
-                        return float(self.get_state(room[ATTR_TEMPERATURE_DAY]))
-                    else:
-                        return float(self.get_state(room[ATTR_TEMPERATURE_NIGHT]))
+                    return self.__get_target_room_temperature(room)
         return None
 
     def get_current_temp(self, sensor: str = None, termostat: str = None) -> float:
@@ -330,9 +334,7 @@ class HeatingControl(hass.Hass):
             ):
                 self.log(f"updating sensor {room[ATTR_SENSOR]}")
                 temperature = float(self.get_state(room[ATTR_SENSOR]))
-                daynight = bool(self.get_state(room[ATTR_DAYNIGHT]).lower() == "on")
-                temperature_day = float(self.get_state(room[ATTR_TEMPERATURE_DAY]))
-                temperature_night = float(self.get_state(room[ATTR_TEMPERATURE_NIGHT]))
+                target_temperature = self.__get_target_room_temperature(room)
                 if self.is_heating():
                     mode = HVAC_HEAT
                 else:
@@ -343,11 +345,6 @@ class HeatingControl(hass.Hass):
                             thermostat, vacation_temperature, temperature, mode
                         )
                     else:
-                        if daynight:
-                            self.__set_thermostat(
-                                thermostat, temperature_day, temperature, mode
-                            )
-                        else:
-                            self.__set_thermostat(
-                                thermostat, temperature_night, temperature, mode
-                            )
+                        self.__set_thermostat(
+                            thermostat, target_temperature, temperature, mode
+                        )
