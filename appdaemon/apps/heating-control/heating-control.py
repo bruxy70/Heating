@@ -192,7 +192,7 @@ class HeatingControl(hass.Hass):
                 target = self.__get_target_room_temp(room)
             if temperature < target:
                 all_above = False
-            elif temperature < (target - HYSTERESIS):
+            if temperature < (target - HYSTERESIS):
                 some_below = True
             if minimum == None or temperature < minimum:
                 minimum = temperature
