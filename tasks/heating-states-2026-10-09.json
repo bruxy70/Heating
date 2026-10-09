@@ -1,0 +1,5177 @@
+[
+  {
+    "entity_id": "sensor.heating_efficiency_stats",
+    "state": "63.5",
+    "attributes": {
+      "state_class": "measurement",
+      "buffer_usage_ratio": 0.11,
+      "age_coverage_ratio": 0.47,
+      "source_value_valid": true,
+      "unit_of_measurement": "%",
+      "icon": "mdi:calculator",
+      "friendly_name": "Heating Efficiency Stats"
+    },
+    "last_changed": "2026-10-09T09:46:06.396343+00:00",
+    "last_reported": "2026-10-09T09:46:06.396343+00:00",
+    "last_updated": "2026-10-09T09:46:06.396343+00:00",
+    "context": {
+      "id": "01M4G0WF5W0ZQS0G7PYET7H4KR",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "input_number.ems_dhw_boiler_efficiency",
+    "state": "0.85",
+    "attributes": {
+      "min": 0.3,
+      "max": 1.1,
+      "step": 0.01,
+      "mode": "box",
+      "initial": 0.85,
+      "editable": false,
+      "unit_of_measurement": "ratio",
+      "icon": "mdi:water-boiler",
+      "friendly_name": "Gas - DHW Boiler Efficiency"
+    },
+    "last_changed": "2026-10-08T05:32:24.001081+00:00",
+    "last_reported": "2026-10-08T05:32:24.001081+00:00",
+    "last_updated": "2026-10-08T05:32:24.001081+00:00",
+    "context": {
+      "id": "01M4CZZ6J1KZSF6PHS73YTXXM2",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "input_number.teplota_obyvak_den",
+    "state": "22.0",
+    "attributes": {
+      "min": 15.0,
+      "max": 25.0,
+      "step": 1.0,
+      "mode": "slider",
+      "initial": null,
+      "editable": false,
+      "unit_of_measurement": "°C",
+      "icon": "mdi:weather-sunny",
+      "friendly_name": "Temperature living room day"
+    },
+    "last_changed": "2026-10-08T05:32:24.006842+00:00",
+    "last_reported": "2026-10-08T05:32:24.006842+00:00",
+    "last_updated": "2026-10-08T05:32:24.006842+00:00",
+    "context": {
+      "id": "01M4CZZ6J6QZE62HYM4KS1EMR8",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "input_number.teplota_obyvak_noc",
+    "state": "20.0",
+    "attributes": {
+      "min": 15.0,
+      "max": 25.0,
+      "step": 1.0,
+      "mode": "slider",
+      "initial": null,
+      "editable": false,
+      "unit_of_measurement": "°C",
+      "icon": "mdi:weather-night",
+      "friendly_name": "Temperature living room night"
+    },
+    "last_changed": "2026-10-08T05:32:24.007061+00:00",
+    "last_reported": "2026-10-08T05:32:24.007061+00:00",
+    "last_updated": "2026-10-08T05:32:24.007061+00:00",
+    "context": {
+      "id": "01M4CZZ6J7RNDFGEQMZ7FY2EEZ",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "input_number.teplota_galerie_den",
+    "state": "22.0",
+    "attributes": {
+      "min": 15.0,
+      "max": 25.0,
+      "step": 1.0,
+      "mode": "slider",
+      "initial": null,
+      "editable": false,
+      "unit_of_measurement": "°C",
+      "icon": "mdi:weather-sunny",
+      "friendly_name": "Temperature gallery day"
+    },
+    "last_changed": "2026-10-08T05:32:24.007283+00:00",
+    "last_reported": "2026-10-08T05:32:24.007283+00:00",
+    "last_updated": "2026-10-08T05:32:24.007283+00:00",
+    "context": {
+      "id": "01M4CZZ6J7YXXP3D9F4A8RYGAW",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "input_number.teplota_galerie_noc",
+    "state": "20.0",
+    "attributes": {
+      "min": 15.0,
+      "max": 25.0,
+      "step": 1.0,
+      "mode": "slider",
+      "initial": null,
+      "editable": false,
+      "unit_of_measurement": "°C",
+      "icon": "mdi:weather-night",
+      "friendly_name": "Temperature gallery night"
+    },
+    "last_changed": "2026-10-08T05:32:24.007503+00:00",
+    "last_reported": "2026-10-08T05:32:24.007503+00:00",
+    "last_updated": "2026-10-08T05:32:24.007503+00:00",
+    "context": {
+      "id": "01M4CZZ6J7HMC1B5YYGYARTCD6",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "input_number.teplota_loznice_den",
+    "state": "23.0",
+    "attributes": {
+      "min": 15.0,
+      "max": 25.0,
+      "step": 1.0,
+      "mode": "slider",
+      "initial": null,
+      "editable": false,
+      "unit_of_measurement": "°C",
+      "icon": "mdi:weather-sunny",
+      "friendly_name": "Temperature bedroom day"
+    },
+    "last_changed": "2026-10-08T05:32:24.007742+00:00",
+    "last_reported": "2026-10-08T05:32:24.007742+00:00",
+    "last_updated": "2026-10-08T05:32:24.007742+00:00",
+    "context": {
+      "id": "01M4CZZ6J7D11BFRQ02XD0SNWZ",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "input_number.teplota_loznice_noc",
+    "state": "20.0",
+    "attributes": {
+      "min": 15.0,
+      "max": 25.0,
+      "step": 1.0,
+      "mode": "slider",
+      "initial": null,
+      "editable": false,
+      "unit_of_measurement": "°C",
+      "icon": "mdi:weather-night",
+      "friendly_name": "Temperature bedroom night"
+    },
+    "last_changed": "2026-10-08T05:32:24.007992+00:00",
+    "last_reported": "2026-10-08T05:32:24.007992+00:00",
+    "last_updated": "2026-10-08T05:32:24.007992+00:00",
+    "context": {
+      "id": "01M4CZZ6J7HBVXDFYS2TKX73SJ",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "input_number.teplota_jakub_den",
+    "state": "22.0",
+    "attributes": {
+      "min": 15.0,
+      "max": 25.0,
+      "step": 1.0,
+      "mode": "slider",
+      "initial": null,
+      "editable": false,
+      "unit_of_measurement": "°C",
+      "icon": "mdi:weather-sunny",
+      "friendly_name": "Temperature Jakub day"
+    },
+    "last_changed": "2026-10-08T05:32:24.008265+00:00",
+    "last_reported": "2026-10-08T05:32:24.008265+00:00",
+    "last_updated": "2026-10-08T05:32:24.008265+00:00",
+    "context": {
+      "id": "01M4CZZ6J8D03Y5J9TSK7QTM8V",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "input_number.teplota_jakub_noc",
+    "state": "20.0",
+    "attributes": {
+      "min": 15.0,
+      "max": 25.0,
+      "step": 1.0,
+      "mode": "slider",
+      "initial": null,
+      "editable": false,
+      "unit_of_measurement": "°C",
+      "icon": "mdi:weather-night",
+      "friendly_name": "Temperature Jakub night"
+    },
+    "last_changed": "2026-10-08T05:32:24.008449+00:00",
+    "last_reported": "2026-10-08T05:32:24.008449+00:00",
+    "last_updated": "2026-10-08T05:32:24.008449+00:00",
+    "context": {
+      "id": "01M4CZZ6J8Q06HVSY1EFR6DAKB",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "input_number.teplota_klara_den",
+    "state": "22.0",
+    "attributes": {
+      "min": 15.0,
+      "max": 25.0,
+      "step": 1.0,
+      "mode": "slider",
+      "initial": null,
+      "editable": false,
+      "unit_of_measurement": "°C",
+      "icon": "mdi:weather-sunny",
+      "friendly_name": "Temperature Klára day"
+    },
+    "last_changed": "2026-10-08T05:32:24.008612+00:00",
+    "last_reported": "2026-10-08T05:32:24.008612+00:00",
+    "last_updated": "2026-10-08T05:32:24.008612+00:00",
+    "context": {
+      "id": "01M4CZZ6J8ACWEJ474FRS02GY6",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "input_number.teplota_klara_noc",
+    "state": "20.0",
+    "attributes": {
+      "min": 15.0,
+      "max": 25.0,
+      "step": 1.0,
+      "mode": "slider",
+      "initial": null,
+      "editable": false,
+      "unit_of_measurement": "°C",
+      "icon": "mdi:weather-night",
+      "friendly_name": "Temperature Klára night"
+    },
+    "last_changed": "2026-10-08T05:32:24.008944+00:00",
+    "last_reported": "2026-10-08T05:32:24.008944+00:00",
+    "last_updated": "2026-10-08T05:32:24.008944+00:00",
+    "context": {
+      "id": "01M4CZZ6J8PETTGNVPQWBKQ4NY",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "input_number.teplota_pracovna_den",
+    "state": "21.0",
+    "attributes": {
+      "min": 15.0,
+      "max": 25.0,
+      "step": 1.0,
+      "mode": "slider",
+      "initial": null,
+      "editable": false,
+      "unit_of_measurement": "°C",
+      "icon": "mdi:weather-sunny",
+      "friendly_name": "Temperature office day"
+    },
+    "last_changed": "2026-10-08T05:32:24.009360+00:00",
+    "last_reported": "2026-10-08T05:32:24.009360+00:00",
+    "last_updated": "2026-10-08T05:32:24.009360+00:00",
+    "context": {
+      "id": "01M4CZZ6J95W0D9212XRDAACCJ",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "input_number.teplota_pracovna_noc",
+    "state": "19.0",
+    "attributes": {
+      "min": 15.0,
+      "max": 25.0,
+      "step": 1.0,
+      "mode": "slider",
+      "initial": null,
+      "editable": false,
+      "unit_of_measurement": "°C",
+      "icon": "mdi:weather-night",
+      "friendly_name": "Temperature office night"
+    },
+    "last_changed": "2026-10-08T05:32:24.009652+00:00",
+    "last_reported": "2026-10-08T05:32:24.009652+00:00",
+    "last_updated": "2026-10-08T05:32:24.009652+00:00",
+    "context": {
+      "id": "01M4CZZ6J92507RXBTCEYPAR5M",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "input_number.teplota_wc_den",
+    "state": "23.0",
+    "attributes": {
+      "min": 15.0,
+      "max": 25.0,
+      "step": 1.0,
+      "mode": "slider",
+      "initial": null,
+      "editable": false,
+      "unit_of_measurement": "°C",
+      "icon": "mdi:weather-sunny",
+      "friendly_name": "Temperature WC day"
+    },
+    "last_changed": "2026-10-08T05:32:24.010072+00:00",
+    "last_reported": "2026-10-08T05:32:24.010072+00:00",
+    "last_updated": "2026-10-08T05:32:24.010072+00:00",
+    "context": {
+      "id": "01M4CZZ6JAJTADRAECK054PWRX",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "input_number.teplota_wc_noc",
+    "state": "21.0",
+    "attributes": {
+      "min": 15.0,
+      "max": 25.0,
+      "step": 1.0,
+      "mode": "slider",
+      "initial": null,
+      "editable": false,
+      "unit_of_measurement": "°C",
+      "icon": "mdi:weather-night",
+      "friendly_name": "Temperature WC night"
+    },
+    "last_changed": "2026-10-08T05:32:24.010323+00:00",
+    "last_reported": "2026-10-08T05:32:24.010323+00:00",
+    "last_updated": "2026-10-08T05:32:24.010323+00:00",
+    "context": {
+      "id": "01M4CZZ6JAHQF9TTWBYJ5NN6JH",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "input_number.teplota_dovolena",
+    "state": "15.0",
+    "attributes": {
+      "min": 15.0,
+      "max": 25.0,
+      "step": 1.0,
+      "mode": "slider",
+      "initial": null,
+      "editable": false,
+      "unit_of_measurement": "°C",
+      "icon": "mdi:beach",
+      "friendly_name": "Vacation temperature"
+    },
+    "last_changed": "2026-10-08T05:32:24.010527+00:00",
+    "last_reported": "2026-10-08T05:32:24.010527+00:00",
+    "last_updated": "2026-10-08T05:32:24.010527+00:00",
+    "context": {
+      "id": "01M4CZZ6JAH5PDXE0QVQZTBBQK",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "input_number.teplota_obyvak",
+    "state": "24.0",
+    "attributes": {
+      "min": 15.0,
+      "max": 25.0,
+      "step": 1.0,
+      "mode": "slider",
+      "initial": null,
+      "editable": false,
+      "friendly_name": "Thermostats living room"
+    },
+    "last_changed": "2026-10-08T05:32:24.010756+00:00",
+    "last_reported": "2026-10-08T05:32:24.010756+00:00",
+    "last_updated": "2026-10-08T05:32:24.010756+00:00",
+    "context": {
+      "id": "01M4CZZ6JAQE6J7DYHAB84QVVN",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "input_boolean.use_room_error",
+    "state": "on",
+    "attributes": {
+      "editable": false,
+      "icon": "mdi:thermostat-auto",
+      "friendly_name": "Use room error for Flow Temperature Control"
+    },
+    "last_changed": "2026-10-08T05:32:24.014815+00:00",
+    "last_reported": "2026-10-08T05:32:24.014815+00:00",
+    "last_updated": "2026-10-08T05:32:24.014815+00:00",
+    "context": {
+      "id": "01M4CZZ6JE054BH9D1MGYEWVY0",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "input_boolean.flow_temp_control",
+    "state": "on",
+    "attributes": {
+      "editable": false,
+      "icon": "mdi:thermostat-auto",
+      "friendly_name": "Flow Temperature Control"
+    },
+    "last_changed": "2026-10-08T05:32:24.017701+00:00",
+    "last_reported": "2026-10-08T05:32:24.017701+00:00",
+    "last_updated": "2026-10-08T05:32:24.017701+00:00",
+    "context": {
+      "id": "01M4CZZ6JHGMSF007WMEZ41RXS",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "input_boolean.comfort_boost",
+    "state": "off",
+    "attributes": {
+      "editable": false,
+      "icon": "mdi:fire",
+      "friendly_name": "Comfort Boost"
+    },
+    "last_changed": "2026-10-08T05:32:24.017938+00:00",
+    "last_reported": "2026-10-08T05:32:24.017938+00:00",
+    "last_updated": "2026-10-08T05:32:24.017938+00:00",
+    "context": {
+      "id": "01M4CZZ6JHZGBP4K7WST00VEAS",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "input_button.heating_reset_shutdown",
+    "state": "2026-04-22T17:12:11.123119+00:00",
+    "attributes": {
+      "editable": false,
+      "icon": "mdi:restart",
+      "friendly_name": "Reset Heating Shutdown"
+    },
+    "last_changed": "2026-10-08T05:32:24.019550+00:00",
+    "last_reported": "2026-10-08T05:32:24.019550+00:00",
+    "last_updated": "2026-10-08T05:32:24.019550+00:00",
+    "context": {
+      "id": "01M4CZZ6JK2BD5MBD3QM5AHE0V",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "input_select.rezim_domu",
+    "state": "auto",
+    "attributes": {
+      "options": [
+        "auto",
+        "dovolená",
+        "hosti"
+      ],
+      "editable": true,
+      "icon": "mdi:home-edit",
+      "friendly_name": "House mode"
+    },
+    "last_changed": "2026-10-08T05:32:24.054997+00:00",
+    "last_reported": "2026-10-08T05:32:24.054997+00:00",
+    "last_updated": "2026-10-08T05:32:24.054997+00:00",
+    "context": {
+      "id": "01M4CZZ6KPGQ90KHS68HK25819",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "input_select.rezim_topeni",
+    "state": "Doma",
+    "attributes": {
+      "options": [
+        "Doma",
+        "Noc",
+        "Příjezd",
+        "Pryč",
+        "Manuální",
+        "Léto"
+      ],
+      "editable": true,
+      "icon": "mdi:snowflake-thermometer",
+      "friendly_name": "Heating mode"
+    },
+    "last_changed": "2026-10-09T06:00:02.627367+00:00",
+    "last_reported": "2026-10-09T06:00:02.627367+00:00",
+    "last_updated": "2026-10-09T06:00:02.627367+00:00",
+    "context": {
+      "id": "01M4FJ7H7E9MVK3NZ5TVTEQGNA",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "input_boolean.is_fireplace_on",
+    "state": "off",
+    "attributes": {
+      "editable": true,
+      "icon": "mdi:fireplace",
+      "friendly_name": "Is Fireplace on?"
+    },
+    "last_changed": "2026-10-08T05:32:24.059185+00:00",
+    "last_reported": "2026-10-08T05:32:24.059185+00:00",
+    "last_updated": "2026-10-08T05:32:24.059185+00:00",
+    "context": {
+      "id": "01M4CZZ6KV3Y3CG07RDQ1PYZQS",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.heating_gas_daily",
+    "state": "9.9",
+    "attributes": {
+      "state_class": "total_increasing",
+      "status": "collecting",
+      "last_period": "0",
+      "last_valid_state": "13703.5",
+      "last_reset": "2026-10-08T22:00:00.050907+00:00",
+      "next_reset": "2026-10-10T00:00:00+02:00",
+      "unit_of_measurement": "kWh",
+      "device_class": "energy",
+      "friendly_name": "heating_gas_daily"
+    },
+    "last_changed": "2026-10-09T09:17:46.421338+00:00",
+    "last_reported": "2026-10-09T09:17:46.421338+00:00",
+    "last_updated": "2026-10-09T09:17:46.421338+00:00",
+    "context": {
+      "id": "01M4FZ8K1NJ1K7HFHWVPHW59T6",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.heating_energy_daily",
+    "state": "11.71",
+    "attributes": {
+      "state_class": "total_increasing",
+      "status": "collecting",
+      "last_period": "0",
+      "last_valid_state": "14826.1",
+      "last_reset": "2026-10-08T22:00:00.038264+00:00",
+      "next_reset": "2026-10-10T00:00:00+02:00",
+      "unit_of_measurement": "kWh",
+      "device_class": "energy",
+      "friendly_name": "heating_energy_daily"
+    },
+    "last_changed": "2026-10-09T09:46:06.399653+00:00",
+    "last_reported": "2026-10-09T09:46:06.399653+00:00",
+    "last_updated": "2026-10-09T09:46:06.399653+00:00",
+    "context": {
+      "id": "01M4G0WF5Z077TFQ50C5VRJ9CW",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.heating_gas_weekly",
+    "state": "9.9",
+    "attributes": {
+      "state_class": "total_increasing",
+      "status": "collecting",
+      "last_period": "0",
+      "last_valid_state": "13703.5",
+      "last_reset": "2026-10-04T22:00:00.029348+00:00",
+      "next_reset": "2026-10-12T00:00:00+02:00",
+      "unit_of_measurement": "kWh",
+      "device_class": "energy",
+      "friendly_name": "heating_gas_weekly"
+    },
+    "last_changed": "2026-10-09T09:17:46.421400+00:00",
+    "last_reported": "2026-10-09T09:17:46.421400+00:00",
+    "last_updated": "2026-10-09T09:17:46.421400+00:00",
+    "context": {
+      "id": "01M4FZ8K1NBY9JC41WMV72CGNV",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.heating_energy_weekly",
+    "state": "11.71",
+    "attributes": {
+      "state_class": "total_increasing",
+      "status": "collecting",
+      "last_period": "0",
+      "last_valid_state": "14826.1",
+      "last_reset": "2026-10-04T22:00:00.024973+00:00",
+      "next_reset": "2026-10-12T00:00:00+02:00",
+      "unit_of_measurement": "kWh",
+      "device_class": "energy",
+      "friendly_name": "heating_energy_weekly"
+    },
+    "last_changed": "2026-10-09T09:46:06.399743+00:00",
+    "last_reported": "2026-10-09T09:46:06.399743+00:00",
+    "last_updated": "2026-10-09T09:46:06.399743+00:00",
+    "context": {
+      "id": "01M4G0WF5ZH1E2XJYFX55PBF4G",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.zachod_podlaha_active_current",
+    "state": "unknown",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "A",
+      "device_class": "current",
+      "friendly_name": "záchod podlaha Active current"
+    },
+    "last_changed": "2026-10-08T05:32:33.541308+00:00",
+    "last_reported": "2026-10-08T05:32:33.541308+00:00",
+    "last_updated": "2026-10-08T05:32:33.541308+00:00",
+    "context": {
+      "id": "01M4CZZFW5EGX3B6BB5XB8XXBX",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.zachod_podlaha_energy",
+    "state": "7.8224",
+    "attributes": {
+      "state_class": "total_increasing",
+      "unit_of_measurement": "kWh",
+      "device_class": "energy",
+      "friendly_name": "záchod podlaha Energy"
+    },
+    "last_changed": "2026-10-08T05:32:33.541827+00:00",
+    "last_reported": "2026-10-08T05:32:33.541827+00:00",
+    "last_updated": "2026-10-08T05:32:33.541827+00:00",
+    "context": {
+      "id": "01M4CZZFW502M7CS02BNSTSB5V",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "climate.zachod_podlaha",
+    "state": "off",
+    "attributes": {
+      "hvac_modes": [
+        "off",
+        "heat"
+      ],
+      "min_temp": 5.0,
+      "max_temp": 35.0,
+      "current_temperature": 19.9,
+      "temperature": 5.0,
+      "friendly_name": "záchod podlaha",
+      "supported_features": 385
+    },
+    "last_changed": "2026-10-08T05:32:33.551630+00:00",
+    "last_reported": "2026-10-09T08:17:06.657503+00:00",
+    "last_updated": "2026-10-09T08:17:06.657503+00:00",
+    "context": {
+      "id": "01M4FVSGK1F6HBEY6K669K9EYE",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.zachod_podlaha_occupied_setback",
+    "state": "0.5",
+    "attributes": {
+      "min": 0.5,
+      "max": 3.0,
+      "step": 0.5,
+      "mode": "box",
+      "unit_of_measurement": "°C",
+      "friendly_name": "záchod podlaha Occupied setback"
+    },
+    "last_changed": "2026-10-08T05:32:33.553214+00:00",
+    "last_reported": "2026-10-08T05:32:33.553214+00:00",
+    "last_updated": "2026-10-08T05:32:33.553214+00:00",
+    "context": {
+      "id": "01M4CZZFWHECZWNQ0NZPKGA2D6",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.zachod_podlaha_temperature_offset",
+    "state": "0.0",
+    "attributes": {
+      "min": -12.7,
+      "max": 12.7,
+      "step": 0.1,
+      "mode": "box",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature_delta",
+      "friendly_name": "záchod podlaha Temperature offset"
+    },
+    "last_changed": "2026-10-08T05:32:33.553821+00:00",
+    "last_reported": "2026-10-08T05:32:33.553821+00:00",
+    "last_updated": "2026-10-08T05:32:33.553821+00:00",
+    "context": {
+      "id": "01M4CZZFWHH8G9TTG82A39PWWT",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "select.zachod_podlaha_temperature_display_mode",
+    "state": "Celsius",
+    "attributes": {
+      "options": [
+        "Celsius",
+        "Fahrenheit"
+      ],
+      "friendly_name": "záchod podlaha Temperature display mode"
+    },
+    "last_changed": "2026-10-08T05:32:33.554479+00:00",
+    "last_reported": "2026-10-08T05:32:33.554479+00:00",
+    "last_updated": "2026-10-08T05:32:33.554479+00:00",
+    "context": {
+      "id": "01M4CZZFWJ84BPREAWRFV53W9T",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.zachod_podlaha_temperature",
+    "state": "19.9",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "záchod podlaha Temperature"
+    },
+    "last_changed": "2026-10-09T08:17:06.658879+00:00",
+    "last_reported": "2026-10-09T08:17:06.658879+00:00",
+    "last_updated": "2026-10-09T08:17:06.658879+00:00",
+    "context": {
+      "id": "01M4FVSGK2HMVSSF1ETTQJPQX6",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.zachod_podlaha_humidity",
+    "state": "51.0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "%",
+      "device_class": "humidity",
+      "friendly_name": "záchod podlaha Humidity"
+    },
+    "last_changed": "2026-10-09T08:48:14.284879+00:00",
+    "last_reported": "2026-10-09T08:48:14.284879+00:00",
+    "last_updated": "2026-10-09T08:48:14.284879+00:00",
+    "context": {
+      "id": "01M4FXJGEC5JVRT2HBGNS19RWG",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.teplota_loznice",
+    "state": "21.64",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "Teploměr ložnice Temperature",
+      "icon": "mdi:thermometer"
+    },
+    "last_changed": "2026-10-09T09:44:52.276581+00:00",
+    "last_reported": "2026-10-09T09:44:52.276581+00:00",
+    "last_updated": "2026-10-09T09:44:52.276581+00:00",
+    "context": {
+      "id": "01M4G0T6SMZA1JC2MVZYJ5TYND",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.teplota_pracovna",
+    "state": "20.91",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "Teploměr pracovna Temperature"
+    },
+    "last_changed": "2026-10-09T09:44:55.271781+00:00",
+    "last_reported": "2026-10-09T09:44:55.271781+00:00",
+    "last_updated": "2026-10-09T09:44:55.271781+00:00",
+    "context": {
+      "id": "01M4G0T9Q7103E52P2FXNYA08F",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.teplota_garaz",
+    "state": "20.1",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "Teploměr garáž Temperature"
+    },
+    "last_changed": "2026-10-09T09:43:07.963139+00:00",
+    "last_reported": "2026-10-09T09:43:07.963139+00:00",
+    "last_updated": "2026-10-09T09:43:07.963139+00:00",
+    "context": {
+      "id": "01M4G0Q0XV20A7ZMRVBJ43D0FY",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.boiler_heating_active",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Topeni aktivni",
+      "icon": "mdi:radiator"
+    },
+    "last_changed": "2026-10-09T09:39:06.429742+00:00",
+    "last_reported": "2026-10-09T09:39:06.429742+00:00",
+    "last_updated": "2026-10-09T09:39:06.429742+00:00",
+    "context": {
+      "id": "01M4G0FN1XWMQGTWWY4BB807J1",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.boiler_tapwater_active",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Ohrev vody aktivni",
+      "icon": "mdi:water-boiler"
+    },
+    "last_changed": "2026-10-09T09:17:16.421863+00:00",
+    "last_reported": "2026-10-09T09:17:16.421863+00:00",
+    "last_updated": "2026-10-09T09:17:16.421863+00:00",
+    "context": {
+      "id": "01M4FZ7NR5XVDSJSTJGK68997G",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.boiler_gas",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Plynovy ventil",
+      "icon": "mdi:gas-burner"
+    },
+    "last_changed": "2026-10-09T09:39:06.432180+00:00",
+    "last_reported": "2026-10-09T09:39:06.432180+00:00",
+    "last_updated": "2026-10-09T09:39:06.432180+00:00",
+    "context": {
+      "id": "01M4G0FN20W0JMQ1P3FW1RB9QM",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.boiler_fan",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Ventilator kotle",
+      "icon": "mdi:fan"
+    },
+    "last_changed": "2026-10-09T09:39:06.419166+00:00",
+    "last_reported": "2026-10-09T09:39:06.419166+00:00",
+    "last_updated": "2026-10-09T09:39:06.419166+00:00",
+    "context": {
+      "id": "01M4G0FN1KAFDFTTKFHK2R8W5Z",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.boiler_ignition",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Zapalovani",
+      "icon": "mdi:fire"
+    },
+    "last_changed": "2026-10-09T09:15:56.448004+00:00",
+    "last_reported": "2026-10-09T09:15:56.448004+00:00",
+    "last_updated": "2026-10-09T09:15:56.448004+00:00",
+    "context": {
+      "id": "01M4FZ57N0WKGDS68SHBCX2SBC",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.boiler_heating_pump",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Obehove cerpadlo",
+      "icon": "mdi:pump"
+    },
+    "last_changed": "2026-10-09T08:27:55.592765+00:00",
+    "last_reported": "2026-10-09T08:27:55.592765+00:00",
+    "last_updated": "2026-10-09T08:27:55.592765+00:00",
+    "context": {
+      "id": "01M4FWDAA8G1CYS1VS48B3XKAV",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.boiler_dhw_charging",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Nabijeni zasobniku",
+      "icon": "mdi:water-boiler"
+    },
+    "last_changed": "2026-10-09T09:17:16.452617+00:00",
+    "last_reported": "2026-10-09T09:17:16.452617+00:00",
+    "last_updated": "2026-10-09T09:17:16.452617+00:00",
+    "context": {
+      "id": "01M4FZ7NS4SA9QAQY5HSRJ8W38",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.boiler_dhw_recharging",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "ems-esp Boiler dhw Recharging"
+    },
+    "last_changed": "2026-10-09T08:17:55.602781+00:00",
+    "last_reported": "2026-10-09T08:17:55.602781+00:00",
+    "last_updated": "2026-10-09T08:17:55.602781+00:00",
+    "context": {
+      "id": "01M4FVV0CJYTRC6SEKV9GYY9R0",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.boiler_dhw_temperature_ok",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "ems-esp Boiler dhw Temperature ok"
+    },
+    "last_changed": "2026-10-09T09:19:16.447428+00:00",
+    "last_reported": "2026-10-09T09:19:16.447428+00:00",
+    "last_updated": "2026-10-09T09:19:16.447428+00:00",
+    "context": {
+      "id": "01M4FZBAYZ7WJCP7Y38ZCJHKFD",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.boiler_dhw_3_way_valve_active",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "ems-esp Boiler dhw 3-way valve active"
+    },
+    "last_changed": "2026-10-09T09:17:08.394668+00:00",
+    "last_reported": "2026-10-09T09:17:08.394668+00:00",
+    "last_updated": "2026-10-09T09:17:08.394668+00:00",
+    "context": {
+      "id": "01M4FZ7DXA2M8VVHPCEKDRK14R",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "climate.zachod_zebrik",
+    "state": "heat",
+    "attributes": {
+      "hvac_modes": [
+        "off",
+        "auto",
+        "heat"
+      ],
+      "min_temp": 4.0,
+      "max_temp": 35.0,
+      "target_temp_step": 0.5,
+      "current_temperature": 20.0,
+      "temperature": 21.0,
+      "hvac_action": "heating",
+      "friendly_name": "záchod žebřík",
+      "supported_features": 385
+    },
+    "last_changed": "2026-10-08T05:33:43.080506+00:00",
+    "last_reported": "2026-10-08T05:33:43.080506+00:00",
+    "last_updated": "2026-10-08T05:33:43.080506+00:00",
+    "context": {
+      "id": "01M4D01KS81QD3ZT9CGFZ4VEYE",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.boiler_selected_flow_temperature",
+    "state": "36",
+    "attributes": {
+      "min": 0.0,
+      "max": 90.0,
+      "step": 1.0,
+      "mode": "box",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "Pozadovana teplota topne vody",
+      "icon": "mdi:thermometer-water"
+    },
+    "last_changed": "2026-10-09T09:19:12.854410+00:00",
+    "last_reported": "2026-10-09T09:19:12.854410+00:00",
+    "last_updated": "2026-10-09T09:19:12.854410+00:00",
+    "context": {
+      "id": "01M4FZB4ZX229Z0A3THCJD86HF",
+      "parent_id": null,
+      "user_id": "e67ed8ecc4c849cdab5b4412afe01b37"
+    }
+  },
+  {
+    "entity_id": "number.boiler_burner_min_power",
+    "state": "10",
+    "attributes": {
+      "min": 0.0,
+      "max": 100.0,
+      "step": 1.0,
+      "mode": "box",
+      "unit_of_measurement": "%",
+      "device_class": "power_factor",
+      "friendly_name": "Minimalni vykon horaku",
+      "icon": "mdi:fire"
+    },
+    "last_changed": "2026-10-09T08:17:55.676182+00:00",
+    "last_reported": "2026-10-09T08:17:55.676182+00:00",
+    "last_updated": "2026-10-09T08:17:55.676182+00:00",
+    "context": {
+      "id": "01M4FVV0EWF775AZ2M4R039QV1",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.boiler_burner_max_power",
+    "state": "100",
+    "attributes": {
+      "min": 0.0,
+      "max": 254.0,
+      "step": 1.0,
+      "mode": "box",
+      "unit_of_measurement": "%",
+      "device_class": "power_factor",
+      "friendly_name": "Maximalni vykon horaku",
+      "icon": "mdi:fire"
+    },
+    "last_changed": "2026-10-09T08:17:55.602032+00:00",
+    "last_reported": "2026-10-09T08:17:55.602032+00:00",
+    "last_updated": "2026-10-09T08:17:55.602032+00:00",
+    "context": {
+      "id": "01M4FVV0CJ88HHQ5VVD6TRMNZR",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.boiler_burner_min_period",
+    "state": "10",
+    "attributes": {
+      "min": 0.0,
+      "max": 120.0,
+      "step": 1.0,
+      "mode": "box",
+      "unit_of_measurement": "min",
+      "device_class": "duration",
+      "friendly_name": "ems-esp Boiler Burner min period"
+    },
+    "last_changed": "2026-10-09T08:17:55.660243+00:00",
+    "last_reported": "2026-10-09T08:17:55.660243+00:00",
+    "last_updated": "2026-10-09T08:17:55.660243+00:00",
+    "context": {
+      "id": "01M4FVV0ECN7XW0RVZHXSRQ4C3",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.boiler_hysteresis_on_temperature",
+    "state": "-6.0",
+    "attributes": {
+      "min": -20.0,
+      "max": 0.0,
+      "step": 1.0,
+      "mode": "box",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "ems-esp Boiler Hysteresis on temperature"
+    },
+    "last_changed": "2026-10-09T08:17:55.631726+00:00",
+    "last_reported": "2026-10-09T08:17:55.631726+00:00",
+    "last_updated": "2026-10-09T08:17:55.631726+00:00",
+    "context": {
+      "id": "01M4FVV0DFBGXZX9PS225A0BSD",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.boiler_hysteresis_off_temperature",
+    "state": "6",
+    "attributes": {
+      "min": 0.0,
+      "max": 20.0,
+      "step": 1.0,
+      "mode": "box",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "ems-esp Boiler Hysteresis off temperature"
+    },
+    "last_changed": "2026-10-09T08:17:55.603160+00:00",
+    "last_reported": "2026-10-09T08:17:55.603160+00:00",
+    "last_updated": "2026-10-09T08:17:55.603160+00:00",
+    "context": {
+      "id": "01M4FVV0CK44KKFQFSV43D863B",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.boiler_heatingcurve_base",
+    "state": "38",
+    "attributes": {
+      "min": 20.0,
+      "max": 90.0,
+      "step": 1.0,
+      "mode": "box",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "Ekvitermni krivka - zaklad",
+      "icon": "mdi:chart-line"
+    },
+    "last_changed": "2026-10-09T08:17:55.654786+00:00",
+    "last_reported": "2026-10-09T08:17:55.654786+00:00",
+    "last_updated": "2026-10-09T08:17:55.654786+00:00",
+    "context": {
+      "id": "01M4FVV0E67BBZGB2SK7N7VJDB",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.boiler_heatingcurve_end",
+    "state": "53",
+    "attributes": {
+      "min": 20.0,
+      "max": 90.0,
+      "step": 1.0,
+      "mode": "box",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "Ekvitermni krivka - konec",
+      "icon": "mdi:chart-line"
+    },
+    "last_changed": "2026-10-09T08:17:55.675747+00:00",
+    "last_reported": "2026-10-09T08:17:55.675747+00:00",
+    "last_updated": "2026-10-09T08:17:55.675747+00:00",
+    "context": {
+      "id": "01M4FVV0EVYGN381JY0R96KHFK",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.boiler_summer_temperature",
+    "state": "16",
+    "attributes": {
+      "min": 0.0,
+      "max": 45.0,
+      "step": 1.0,
+      "mode": "box",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "Letni teplota (vypnuti)",
+      "icon": "mdi:weather-sunny"
+    },
+    "last_changed": "2026-10-09T08:17:55.631129+00:00",
+    "last_reported": "2026-10-09T08:17:55.631129+00:00",
+    "last_updated": "2026-10-09T08:17:55.631129+00:00",
+    "context": {
+      "id": "01M4FVV0DF5AJ5R3742EWAQVRX",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.boiler_nofrost_temperature",
+    "state": "5",
+    "attributes": {
+      "min": 0.0,
+      "max": 10.0,
+      "step": 1.0,
+      "mode": "box",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "ems-esp Boiler Nofrost temperature"
+    },
+    "last_changed": "2026-10-09T08:17:55.627341+00:00",
+    "last_reported": "2026-10-09T08:17:55.627341+00:00",
+    "last_updated": "2026-10-09T08:17:55.627341+00:00",
+    "context": {
+      "id": "01M4FVV0DB82G1D8PWKDA8VPBX",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.boiler_heating_temperature",
+    "state": "70",
+    "attributes": {
+      "min": 0.0,
+      "max": 90.0,
+      "step": 1.0,
+      "mode": "box",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "Maximalni teplota topne vody",
+      "icon": "mdi:thermometer-alert"
+    },
+    "last_changed": "2026-10-09T08:17:55.624576+00:00",
+    "last_reported": "2026-10-09T08:17:55.624576+00:00",
+    "last_updated": "2026-10-09T08:17:55.624576+00:00",
+    "context": {
+      "id": "01M4FVV0D8D7BXXSQKP6575VVB",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.boiler_boiler_pump_max_power",
+    "state": "100",
+    "attributes": {
+      "min": 0.0,
+      "max": 100.0,
+      "step": 1.0,
+      "mode": "box",
+      "unit_of_measurement": "%",
+      "device_class": "power_factor",
+      "friendly_name": "ems-esp Boiler Boiler pump max power"
+    },
+    "last_changed": "2026-10-09T08:17:55.676080+00:00",
+    "last_reported": "2026-10-09T08:17:55.676080+00:00",
+    "last_updated": "2026-10-09T08:17:55.676080+00:00",
+    "context": {
+      "id": "01M4FVV0EW15730FGR2NY115NG",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.boiler_boiler_pump_min_power",
+    "state": "10",
+    "attributes": {
+      "min": 0.0,
+      "max": 100.0,
+      "step": 1.0,
+      "mode": "box",
+      "unit_of_measurement": "%",
+      "device_class": "power_factor",
+      "friendly_name": "ems-esp Boiler Boiler pump min power"
+    },
+    "last_changed": "2026-10-09T08:17:55.608578+00:00",
+    "last_reported": "2026-10-09T08:17:55.608578+00:00",
+    "last_updated": "2026-10-09T08:17:55.608578+00:00",
+    "context": {
+      "id": "01M4FVV0CRW84FWJCW37KTG8X4",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.boiler_burner_selected_max_power",
+    "state": "100",
+    "attributes": {
+      "min": 0.0,
+      "max": 254.0,
+      "step": 1.0,
+      "mode": "box",
+      "unit_of_measurement": "%",
+      "device_class": "power_factor",
+      "friendly_name": "Nastaveny max vykon horaku",
+      "icon": "mdi:fire"
+    },
+    "last_changed": "2026-10-09T09:19:12.854131+00:00",
+    "last_reported": "2026-10-09T09:19:12.854131+00:00",
+    "last_updated": "2026-10-09T09:19:12.854131+00:00",
+    "context": {
+      "id": "01M4FZB7EP6K9VN4VWCEPM3VFA",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.boiler_time_to_next_maintenance",
+    "state": "6000",
+    "attributes": {
+      "min": 0.0,
+      "max": 31999.0,
+      "step": 1.0,
+      "mode": "box",
+      "unit_of_measurement": "h",
+      "device_class": "duration",
+      "friendly_name": "ems-esp Boiler Time to next maintenance"
+    },
+    "last_changed": "2026-10-09T08:17:55.675505+00:00",
+    "last_reported": "2026-10-09T08:17:55.675505+00:00",
+    "last_updated": "2026-10-09T08:17:55.675505+00:00",
+    "context": {
+      "id": "01M4FVV0EVFR8WJ94Z5V5MWF3N",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.boiler_emergency_temperature",
+    "state": "30",
+    "attributes": {
+      "min": 15.0,
+      "max": 70.0,
+      "step": 1.0,
+      "mode": "box",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "ems-esp Boiler Emergency temperature"
+    },
+    "last_changed": "2026-10-09T08:17:55.602380+00:00",
+    "last_reported": "2026-10-09T08:17:55.602380+00:00",
+    "last_updated": "2026-10-09T08:17:55.602380+00:00",
+    "context": {
+      "id": "01M4FVV0CJX52CBF7RQZ8C2TPP",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.boiler_dhw_selected_temperature",
+    "state": "55",
+    "attributes": {
+      "min": 0.0,
+      "max": 254.0,
+      "step": 1.0,
+      "mode": "box",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "Pozadovana teplota teple vody",
+      "icon": "mdi:water-thermometer"
+    },
+    "last_changed": "2026-10-09T08:17:55.631520+00:00",
+    "last_reported": "2026-10-09T08:17:55.631520+00:00",
+    "last_updated": "2026-10-09T08:17:55.631520+00:00",
+    "context": {
+      "id": "01M4FVV0DFJCMPTVTK6TM977Q4",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.boiler_dhw_selected_lower_temperature",
+    "state": "40",
+    "attributes": {
+      "min": 0.0,
+      "max": 254.0,
+      "step": 1.0,
+      "mode": "box",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "ems-esp Boiler dhw Selected lower temperature"
+    },
+    "last_changed": "2026-10-09T08:17:55.601349+00:00",
+    "last_reported": "2026-10-09T08:17:55.601349+00:00",
+    "last_updated": "2026-10-09T08:17:55.601349+00:00",
+    "context": {
+      "id": "01M4FVV0CHWE79KZAAT07MSHDF",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.boiler_dhw_single_charge_temperature",
+    "state": "60",
+    "attributes": {
+      "min": 0.0,
+      "max": 254.0,
+      "step": 1.0,
+      "mode": "box",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "ems-esp Boiler dhw Single charge temperature"
+    },
+    "last_changed": "2026-10-09T08:17:55.672088+00:00",
+    "last_reported": "2026-10-09T08:17:55.672088+00:00",
+    "last_updated": "2026-10-09T08:17:55.672088+00:00",
+    "context": {
+      "id": "01M4FVV0ERDZJ1K48D3R4499ZB",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.boiler_dhw_flow_temperature_offset",
+    "state": "40",
+    "attributes": {
+      "min": 0.0,
+      "max": 100.0,
+      "step": 1.0,
+      "mode": "box",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "Prutokovy offset teple vody",
+      "icon": "mdi:water-plus"
+    },
+    "last_changed": "2026-10-09T08:17:55.632190+00:00",
+    "last_reported": "2026-10-09T08:17:55.632190+00:00",
+    "last_updated": "2026-10-09T08:17:55.632190+00:00",
+    "context": {
+      "id": "01M4FVV0DGY2RZ4GCBPWN1TQRH",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.boiler_dhw_maximum_temperature",
+    "state": "70",
+    "attributes": {
+      "min": 0.0,
+      "max": 80.0,
+      "step": 1.0,
+      "mode": "box",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "Maximalni teplota teple vody",
+      "icon": "mdi:water-thermometer-outline"
+    },
+    "last_changed": "2026-10-09T08:17:55.608976+00:00",
+    "last_reported": "2026-10-09T08:17:55.608976+00:00",
+    "last_updated": "2026-10-09T08:17:55.608976+00:00",
+    "context": {
+      "id": "01M4FVV0CR8AZD8V6RA3RZ2CBB",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.boiler_dhw_hysteresis_on_temperature",
+    "state": "-5.0",
+    "attributes": {
+      "min": -126.0,
+      "max": 126.0,
+      "step": 1.0,
+      "mode": "box",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "ems-esp Boiler dhw Hysteresis on temperature"
+    },
+    "last_changed": "2026-10-09T08:17:55.602960+00:00",
+    "last_reported": "2026-10-09T08:17:55.602960+00:00",
+    "last_updated": "2026-10-09T08:17:55.602960+00:00",
+    "context": {
+      "id": "01M4FVV0CJZEXBBE4R7TFSJANP",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.boiler_dhw_hysteresis_off_temperature",
+    "state": "0",
+    "attributes": {
+      "min": -126.0,
+      "max": 126.0,
+      "step": 1.0,
+      "mode": "box",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "ems-esp Boiler dhw Hysteresis off temperature"
+    },
+    "last_changed": "2026-10-09T08:17:55.645195+00:00",
+    "last_reported": "2026-10-09T08:17:55.645195+00:00",
+    "last_updated": "2026-10-09T08:17:55.645195+00:00",
+    "context": {
+      "id": "01M4FVV0DXP6JSGFXHV210NK5M",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.boiler_dhw_disinfection_temperature",
+    "state": "60",
+    "attributes": {
+      "min": 60.0,
+      "max": 80.0,
+      "step": 1.0,
+      "mode": "box",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "ems-esp Boiler dhw Disinfection temperature"
+    },
+    "last_changed": "2026-10-09T08:17:55.608003+00:00",
+    "last_reported": "2026-10-09T08:17:55.608003+00:00",
+    "last_updated": "2026-10-09T08:17:55.608003+00:00",
+    "context": {
+      "id": "01M4FVV0CRXBEK374PMDN2N8SX",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.boiler_nominal_power",
+    "state": "30",
+    "attributes": {
+      "min": 0.0,
+      "max": 254.0,
+      "step": 1.0,
+      "mode": "box",
+      "unit_of_measurement": "kW",
+      "device_class": "power",
+      "friendly_name": "ems-esp Boiler Nominal Power"
+    },
+    "last_changed": "2026-10-09T08:12:18.194197+00:00",
+    "last_reported": "2026-10-09T08:12:18.194197+00:00",
+    "last_updated": "2026-10-09T08:12:18.194197+00:00",
+    "context": {
+      "id": "01M4FVGPWJWPXAF1J0VMQ1MRJD",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.zachod_zebrik_local_temperature_calibration",
+    "state": "0",
+    "attributes": {
+      "min": -12.7,
+      "max": 12.7,
+      "step": 0.2,
+      "mode": "auto",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature_delta",
+      "friendly_name": "záchod žebřík Temperature delta"
+    },
+    "last_changed": "2026-10-08T05:33:43.084967+00:00",
+    "last_reported": "2026-10-08T05:33:43.084967+00:00",
+    "last_updated": "2026-10-08T05:33:43.084967+00:00",
+    "context": {
+      "id": "01M4D01KSC0MJX7S1X94MDJ7XR",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.zachod_zebrik_timer_mode_target_temp",
+    "state": "10",
+    "attributes": {
+      "min": 4.0,
+      "max": 35.0,
+      "step": 0.5,
+      "mode": "auto",
+      "unit_of_measurement": "°C",
+      "friendly_name": "záchod žebřík Timer mode target temp"
+    },
+    "last_changed": "2026-10-08T05:33:43.085232+00:00",
+    "last_reported": "2026-10-08T05:33:43.085232+00:00",
+    "last_updated": "2026-10-08T05:33:43.085232+00:00",
+    "context": {
+      "id": "01M4D01KSD91T6CJZV3VPJNFBK",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.zachod_zebrik_temporary_mode_duration",
+    "state": "5",
+    "attributes": {
+      "min": 0.0,
+      "max": 1440.0,
+      "step": 1.0,
+      "mode": "auto",
+      "unit_of_measurement": "minutes",
+      "friendly_name": "záchod žebřík Temporary mode duration"
+    },
+    "last_changed": "2026-10-08T05:33:43.084764+00:00",
+    "last_reported": "2026-10-08T05:33:43.084764+00:00",
+    "last_updated": "2026-10-08T05:33:43.084764+00:00",
+    "context": {
+      "id": "01M4D01KSCA9BS08C41H5R4NTZ",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.zachod_zebrik_frost_protection_temperature",
+    "state": "7",
+    "attributes": {
+      "min": 4.0,
+      "max": 35.0,
+      "step": 0.5,
+      "mode": "auto",
+      "unit_of_measurement": "°C",
+      "friendly_name": "záchod žebřík Frost protection temperature"
+    },
+    "last_changed": "2026-10-08T05:33:43.081438+00:00",
+    "last_reported": "2026-10-08T05:33:43.081438+00:00",
+    "last_updated": "2026-10-08T05:33:43.081438+00:00",
+    "context": {
+      "id": "01M4D01KS92TY63B6Q6N8N3041",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.zachod_zebrik_external_temperature_input",
+    "state": "20.8",
+    "attributes": {
+      "min": 0.0,
+      "max": 99.9,
+      "step": 0.1,
+      "mode": "auto",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "icon": "mdi:thermometer",
+      "friendly_name": "záchod žebřík Temperature"
+    },
+    "last_changed": "2026-10-08T05:33:43.084182+00:00",
+    "last_reported": "2026-10-08T05:33:43.084182+00:00",
+    "last_updated": "2026-10-08T05:33:43.084182+00:00",
+    "context": {
+      "id": "01M4D01KSCT8MYW2HNTEN60FHF",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.zachod_zebrik_valve_opening_degree",
+    "state": "100",
+    "attributes": {
+      "min": 0.0,
+      "max": 100.0,
+      "step": 1.0,
+      "mode": "auto",
+      "unit_of_measurement": "%",
+      "friendly_name": "záchod žebřík Valve opening degree"
+    },
+    "last_changed": "2026-10-08T05:33:43.078856+00:00",
+    "last_reported": "2026-10-08T05:33:43.078856+00:00",
+    "last_updated": "2026-10-08T05:33:43.078856+00:00",
+    "context": {
+      "id": "01M4D01KS64TMNYT8T8NJ8XJJ2",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.zachod_zebrik_valve_closing_degree",
+    "state": "100",
+    "attributes": {
+      "min": 0.0,
+      "max": 100.0,
+      "step": 1.0,
+      "mode": "auto",
+      "unit_of_measurement": "%",
+      "friendly_name": "záchod žebřík Valve closing degree"
+    },
+    "last_changed": "2026-10-08T05:33:43.085054+00:00",
+    "last_reported": "2026-10-08T05:33:43.085054+00:00",
+    "last_updated": "2026-10-08T05:33:43.085054+00:00",
+    "context": {
+      "id": "01M4D01KSDESHKZ5X6HAE356Q0",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.zachod_zebrik_temperature_accuracy",
+    "state": "-1.0",
+    "attributes": {
+      "min": -1.0,
+      "max": -0.2,
+      "step": 0.2,
+      "mode": "auto",
+      "unit_of_measurement": "°C",
+      "friendly_name": "záchod žebřík Temperature accuracy"
+    },
+    "last_changed": "2026-10-08T05:33:43.084868+00:00",
+    "last_reported": "2026-10-08T05:33:43.084868+00:00",
+    "last_updated": "2026-10-08T05:33:43.084868+00:00",
+    "context": {
+      "id": "01M4D01KSC3CTVF7YJDPEBHH3A",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "select.boiler_reset",
+    "state": "unknown",
+    "attributes": {
+      "options": [
+        "-",
+        "maintenance",
+        "error",
+        "history",
+        "message"
+      ],
+      "assumed_state": true,
+      "friendly_name": "ems-esp Boiler Reset"
+    },
+    "last_changed": "2026-10-08T05:32:43.463562+00:00",
+    "last_reported": "2026-10-08T05:32:43.463562+00:00",
+    "last_updated": "2026-10-08T05:32:43.463562+00:00",
+    "context": {
+      "id": "01M4CZZSJ7P6P2X4TNE219P3GY",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "select.boiler_boiler_pump_characteristic",
+    "state": "250mbar",
+    "attributes": {
+      "options": [
+        "proportional",
+        "150mbar",
+        "200mbar",
+        "250mbar",
+        "300mbar",
+        "350mbar",
+        "400mbar"
+      ],
+      "friendly_name": "ems-esp Boiler Boiler pump characteristic"
+    },
+    "last_changed": "2026-10-09T08:17:55.658716+00:00",
+    "last_reported": "2026-10-09T08:17:55.658716+00:00",
+    "last_updated": "2026-10-09T08:17:55.658716+00:00",
+    "context": {
+      "id": "01M4FVV0EACPM4C1N128RF8R90",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "select.boiler_maintenance_scheduled",
+    "state": "off",
+    "attributes": {
+      "options": [
+        "off",
+        "time",
+        "date",
+        "manual"
+      ],
+      "friendly_name": "ems-esp Boiler Maintenance scheduled"
+    },
+    "last_changed": "2026-10-09T08:17:55.600815+00:00",
+    "last_reported": "2026-10-09T08:17:55.600815+00:00",
+    "last_updated": "2026-10-09T08:17:55.600815+00:00",
+    "context": {
+      "id": "01M4FVV0CGNE0D5SJNQBKHMD7M",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "select.boiler_dhw_comfort_mode",
+    "state": "eco",
+    "attributes": {
+      "options": [
+        "high comfort",
+        "eco"
+      ],
+      "friendly_name": "Komfortni rezim vody",
+      "icon": "mdi:water-thermometer"
+    },
+    "last_changed": "2026-10-09T08:12:18.118008+00:00",
+    "last_reported": "2026-10-09T08:12:18.118008+00:00",
+    "last_updated": "2026-10-09T08:12:18.118008+00:00",
+    "context": {
+      "id": "01M4FVGPT6B1WMGM4Y6SNP6Y9X",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "select.zachod_zebrik_temporary_mode_select",
+    "state": "boost",
+    "attributes": {
+      "options": [
+        "boost",
+        "timer"
+      ],
+      "friendly_name": "záchod žebřík Temporary mode "
+    },
+    "last_changed": "2026-10-08T05:33:43.081797+00:00",
+    "last_reported": "2026-10-08T05:33:43.081797+00:00",
+    "last_updated": "2026-10-08T05:33:43.081797+00:00",
+    "context": {
+      "id": "01M4D01KS9KEFMARQG6WD3R2DQ",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "select.zachod_zebrik_temperature_sensor_select",
+    "state": "unknown",
+    "attributes": {
+      "options": [
+        "local_temperature",
+        "remote_temperature",
+        "remote_source_offline"
+      ],
+      "icon": "mdi:home-thermometer",
+      "friendly_name": "záchod žebřík Temperature sensor"
+    },
+    "last_changed": "2026-10-08T05:32:45.601939+00:00",
+    "last_reported": "2026-10-08T05:32:45.601939+00:00",
+    "last_updated": "2026-10-08T05:32:45.601939+00:00",
+    "context": {
+      "id": "01M4CZZVN198WATH5W6RNSHRFR",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_heating_pump_modulation",
+    "state": "83",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "%",
+      "device_class": "power_factor",
+      "friendly_name": "Modulace cerpadla %",
+      "icon": "mdi:pump"
+    },
+    "last_changed": "2026-10-09T09:30:06.465230+00:00",
+    "last_reported": "2026-10-09T09:30:06.465230+00:00",
+    "last_updated": "2026-10-09T09:30:06.465230+00:00",
+    "context": {
+      "id": "01M4FZZ5R16PWFT0SR3MRVRPMQ",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_current_flow_temperature",
+    "state": "36.4",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "Teplota topne vody",
+      "icon": "mdi:thermometer-water"
+    },
+    "last_changed": "2026-10-09T09:46:06.393265+00:00",
+    "last_reported": "2026-10-09T09:46:06.393265+00:00",
+    "last_updated": "2026-10-09T09:46:06.393265+00:00",
+    "context": {
+      "id": "01M4G0WF5S2M6RJEG61F2V7B97",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_system_pressure",
+    "state": "1.5",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "bar",
+      "device_class": "pressure",
+      "friendly_name": "Tlak v systemu",
+      "icon": "mdi:gauge"
+    },
+    "last_changed": "2026-10-09T09:23:26.425301+00:00",
+    "last_reported": "2026-10-09T09:23:26.425301+00:00",
+    "last_updated": "2026-10-09T09:23:26.425301+00:00",
+    "context": {
+      "id": "01M4FZJZ2SK63SHSH9DNYNV3G1",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_low_loss_header",
+    "state": "0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "ems-esp Boiler Low loss header"
+    },
+    "last_changed": "2026-10-09T08:17:55.660479+00:00",
+    "last_reported": "2026-10-09T08:17:55.660479+00:00",
+    "last_updated": "2026-10-09T08:17:55.660479+00:00",
+    "context": {
+      "id": "01M4FVV0ECZG13801VGRN5CY35",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_exhaust_temperature",
+    "state": "0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "Teplota spalin",
+      "icon": "mdi:thermometer-high"
+    },
+    "last_changed": "2026-10-09T08:19:35.584414+00:00",
+    "last_reported": "2026-10-09T08:19:35.584414+00:00",
+    "last_updated": "2026-10-09T08:19:35.584414+00:00",
+    "context": {
+      "id": "01M4FVY2109NCR2YWPARM42FJX",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_flame_current",
+    "state": "7.4",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "µA",
+      "friendly_name": "Ionizacni proud",
+      "icon": "mdi:flash"
+    },
+    "last_changed": "2026-10-09T09:46:06.397496+00:00",
+    "last_reported": "2026-10-09T09:46:06.397496+00:00",
+    "last_updated": "2026-10-09T09:46:06.397496+00:00",
+    "context": {
+      "id": "01M4G0WF5X2R03E039NQSKK0JX",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_burner_current_power_absolute",
+    "state": "10",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "%",
+      "device_class": "power_factor",
+      "friendly_name": "ems-esp Boiler Burner current power (absolute)"
+    },
+    "last_changed": "2026-10-09T09:39:26.458004+00:00",
+    "last_reported": "2026-10-09T09:39:26.458004+00:00",
+    "last_updated": "2026-10-09T09:39:26.458004+00:00",
+    "context": {
+      "id": "01M4G0G8KTC75Q0K65NRZKX4PG",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_heating_block",
+    "state": "36.3",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "ems-esp Boiler Heating block"
+    },
+    "last_changed": "2026-10-09T09:46:06.391759+00:00",
+    "last_reported": "2026-10-09T09:46:06.391759+00:00",
+    "last_updated": "2026-10-09T09:46:06.391759+00:00",
+    "context": {
+      "id": "01M4G0WF5Q7S9GHWF2VCHEG99V",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_burner_current_power",
+    "state": "10",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "%",
+      "device_class": "power_factor",
+      "friendly_name": "Vykon horaku %",
+      "icon": "mdi:fire"
+    },
+    "last_changed": "2026-10-09T09:39:26.443916+00:00",
+    "last_reported": "2026-10-09T09:39:26.443916+00:00",
+    "last_updated": "2026-10-09T09:39:26.443916+00:00",
+    "context": {
+      "id": "01M4G0G8KBB4SZQXPN5P38E2VN",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_burner_starts",
+    "state": "4270",
+    "attributes": {
+      "state_class": "total_increasing",
+      "friendly_name": "ems-esp Boiler Burner starts"
+    },
+    "last_changed": "2026-10-09T09:39:26.455778+00:00",
+    "last_reported": "2026-10-09T09:39:26.455778+00:00",
+    "last_updated": "2026-10-09T09:39:26.455778+00:00",
+    "context": {
+      "id": "01M4G0G8KQNAS2K2DNZWF6V8G0",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_total_burner_operating_time",
+    "state": "200543",
+    "attributes": {
+      "state_class": "total_increasing",
+      "unit_of_measurement": "min",
+      "device_class": "duration",
+      "friendly_name": "Celkova doba provozu horaku",
+      "icon": "mdi:clock-outline"
+    },
+    "last_changed": "2026-10-09T09:45:26.398577+00:00",
+    "last_reported": "2026-10-09T09:45:26.398577+00:00",
+    "last_updated": "2026-10-09T09:45:26.398577+00:00",
+    "context": {
+      "id": "01M4G0V83YN8DKXD0P0TPF3082",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_burner_stage_2_operating_time",
+    "state": "0",
+    "attributes": {
+      "state_class": "total_increasing",
+      "unit_of_measurement": "min",
+      "device_class": "duration",
+      "friendly_name": "ems-esp Boiler Burner stage 2 operating time"
+    },
+    "last_changed": "2026-10-09T08:17:55.601609+00:00",
+    "last_reported": "2026-10-09T08:17:55.601609+00:00",
+    "last_updated": "2026-10-09T08:17:55.601609+00:00",
+    "context": {
+      "id": "01M4FVV0CH9W2BB29DNASDHNX6",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_total_heat_operating_time",
+    "state": "193346",
+    "attributes": {
+      "state_class": "total_increasing",
+      "unit_of_measurement": "min",
+      "device_class": "duration",
+      "friendly_name": "ems-esp Boiler Total heat operating time"
+    },
+    "last_changed": "2026-10-09T09:45:26.397309+00:00",
+    "last_reported": "2026-10-09T09:45:26.397309+00:00",
+    "last_updated": "2026-10-09T09:45:26.397309+00:00",
+    "context": {
+      "id": "01M4G0V83XDMC20HQWYQMVQRXP",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_burner_starts_heating",
+    "state": "2320",
+    "attributes": {
+      "state_class": "total_increasing",
+      "friendly_name": "ems-esp Boiler Burner starts heating"
+    },
+    "last_changed": "2026-10-09T09:39:26.455932+00:00",
+    "last_reported": "2026-10-09T09:39:26.455932+00:00",
+    "last_updated": "2026-10-09T09:39:26.455932+00:00",
+    "context": {
+      "id": "01M4G0G8KQSA3GJM41BZD033XM",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_total_uba_operating_time",
+    "state": "737732",
+    "attributes": {
+      "state_class": "total_increasing",
+      "unit_of_measurement": "min",
+      "device_class": "duration",
+      "friendly_name": "ems-esp Boiler Total UBA operating time"
+    },
+    "last_changed": "2026-10-09T09:27:26.457091+00:00",
+    "last_reported": "2026-10-09T09:27:26.457091+00:00",
+    "last_updated": "2026-10-09T09:27:26.457091+00:00",
+    "context": {
+      "id": "01M4FZT9FSC788RGE844A9Z2ZM",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_last_error_code",
+    "state": "--(2927) @uptime 695222 - 695223 min",
+    "attributes": {
+      "friendly_name": "ems-esp Boiler Last error code"
+    },
+    "last_changed": "2026-10-09T08:17:55.672760+00:00",
+    "last_reported": "2026-10-09T08:17:55.672760+00:00",
+    "last_updated": "2026-10-09T08:17:55.672760+00:00",
+    "context": {
+      "id": "01M4FVV0ERZSYXGS26ZXKHH3XF",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_service_code",
+    "state": "--",
+    "attributes": {
+      "friendly_name": "ems-esp Boiler Service code"
+    },
+    "last_changed": "2026-10-09T08:27:45.582499+00:00",
+    "last_reported": "2026-10-09T08:27:45.582499+00:00",
+    "last_updated": "2026-10-09T08:27:45.582499+00:00",
+    "context": {
+      "id": "01M4FWD0HEJF1QTHEJE38G3DE1",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_service_code_number",
+    "state": "200",
+    "attributes": {
+      "state_class": "measurement",
+      "friendly_name": "ems-esp Boiler Service code number"
+    },
+    "last_changed": "2026-10-09T09:39:06.431796+00:00",
+    "last_reported": "2026-10-09T09:39:06.431796+00:00",
+    "last_updated": "2026-10-09T09:39:06.431796+00:00",
+    "context": {
+      "id": "01M4G0FN1ZB98N6JX2890WE4WR",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_flow_pc0",
+    "state": "1091",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "L/h",
+      "device_class": "volume_flow_rate",
+      "friendly_name": "ems-esp Boiler Flow PC0"
+    },
+    "last_changed": "2026-10-09T09:45:46.404082+00:00",
+    "last_reported": "2026-10-09T09:45:46.404082+00:00",
+    "last_updated": "2026-10-09T09:45:46.404082+00:00",
+    "context": {
+      "id": "01M4G0VVN460DVJ7DSHJ05TNQD",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_meter_heating",
+    "state": "0",
+    "attributes": {
+      "state_class": "total_increasing",
+      "unit_of_measurement": "kWh",
+      "device_class": "energy",
+      "friendly_name": "ems-esp Boiler Meter heating"
+    },
+    "last_changed": "2026-10-09T08:37:25.584814+00:00",
+    "last_reported": "2026-10-09T08:37:25.584814+00:00",
+    "last_updated": "2026-10-09T08:37:25.584814+00:00",
+    "context": {
+      "id": "01M4FWYPYG6W9QE9ZD6GTS511R",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_dhw_meter",
+    "state": "0",
+    "attributes": {
+      "state_class": "total_increasing",
+      "unit_of_measurement": "kWh",
+      "device_class": "energy",
+      "friendly_name": "ems-esp Boiler dhw Meter"
+    },
+    "last_changed": "2026-10-09T08:37:25.584387+00:00",
+    "last_reported": "2026-10-09T08:37:25.584387+00:00",
+    "last_updated": "2026-10-09T08:37:25.584387+00:00",
+    "context": {
+      "id": "01M4FWYPYGPA27FBQ56GN39DSR",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_gas_meter_heating",
+    "state": "13703.5",
+    "attributes": {
+      "state_class": "total_increasing",
+      "unit_of_measurement": "kWh",
+      "device_class": "energy",
+      "friendly_name": "Plyn - topeni",
+      "icon": "mdi:meter-gas"
+    },
+    "last_changed": "2026-10-09T09:17:46.420921+00:00",
+    "last_reported": "2026-10-09T09:17:46.420921+00:00",
+    "last_updated": "2026-10-09T09:17:46.420921+00:00",
+    "context": {
+      "id": "01M4FZ8K1MB3QJ9C92A0D0QD0N",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_dhw_gas_meter",
+    "state": "1529.9",
+    "attributes": {
+      "state_class": "total_increasing",
+      "unit_of_measurement": "kWh",
+      "device_class": "energy",
+      "friendly_name": "Plyn - teply voda",
+      "icon": "mdi:meter-gas"
+    },
+    "last_changed": "2026-10-09T09:27:46.450531+00:00",
+    "last_reported": "2026-10-09T09:27:46.450531+00:00",
+    "last_updated": "2026-10-09T09:27:46.450531+00:00",
+    "context": {
+      "id": "01M4FZTX0J2FYVKA5M30DHMJ2E",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_dhw_set_temperature",
+    "state": "5",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "ems-esp Boiler dhw Set temperature"
+    },
+    "last_changed": "2026-10-09T09:17:16.451605+00:00",
+    "last_reported": "2026-10-09T09:17:16.451605+00:00",
+    "last_updated": "2026-10-09T09:17:16.451605+00:00",
+    "context": {
+      "id": "01M4FZ7NS36RY93567ABMGBHVY",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_dhw_selected_temperature_for_off",
+    "state": "0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "ems-esp Boiler dhw Selected temperature for off"
+    },
+    "last_changed": "2026-10-09T08:17:55.600457+00:00",
+    "last_reported": "2026-10-09T08:17:55.600457+00:00",
+    "last_updated": "2026-10-09T08:17:55.600457+00:00",
+    "context": {
+      "id": "01M4FVV0CGKRSW6D134JB9C4JG",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_dhw_current_intern_temperature",
+    "state": "50.7",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "Boiler top"
+    },
+    "last_changed": "2026-10-09T09:42:46.429820+00:00",
+    "last_reported": "2026-10-09T09:42:46.429820+00:00",
+    "last_updated": "2026-10-09T09:42:46.429820+00:00",
+    "context": {
+      "id": "01M4G0PBWXYYRPJXP25JA55KX0",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_dhw_current_tap_water_flow",
+    "state": "0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "L/min",
+      "device_class": "volume_flow_rate",
+      "friendly_name": "ems-esp Boiler dhw Current tap water flow"
+    },
+    "last_changed": "2026-10-09T08:17:55.627136+00:00",
+    "last_reported": "2026-10-09T08:17:55.627136+00:00",
+    "last_updated": "2026-10-09T08:17:55.627136+00:00",
+    "context": {
+      "id": "01M4FVV0DBBQD2HSHHKGR6AVC6",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_dhw_starts",
+    "state": "1950",
+    "attributes": {
+      "state_class": "total_increasing",
+      "friendly_name": "ems-esp Boiler dhw Starts"
+    },
+    "last_changed": "2026-10-09T09:15:56.448534+00:00",
+    "last_reported": "2026-10-09T09:15:56.448534+00:00",
+    "last_updated": "2026-10-09T09:15:56.448534+00:00",
+    "context": {
+      "id": "01M4FZ57N08Z3DBGFQF1EVHETG",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_dhw_active_time",
+    "state": "7197",
+    "attributes": {
+      "state_class": "total_increasing",
+      "unit_of_measurement": "min",
+      "device_class": "duration",
+      "friendly_name": "ems-esp Boiler dhw Active time"
+    },
+    "last_changed": "2026-10-09T09:16:56.443992+00:00",
+    "last_reported": "2026-10-09T09:16:56.443992+00:00",
+    "last_updated": "2026-10-09T09:16:56.443992+00:00",
+    "context": {
+      "id": "01M4FZ727VTRZBFWCZYTD2V0AR",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_total_energy",
+    "state": "16497.99",
+    "attributes": {
+      "state_class": "total_increasing",
+      "unit_of_measurement": "kWh",
+      "device_class": "energy",
+      "friendly_name": "Celkova energie kotle",
+      "icon": "mdi:lightning-bolt"
+    },
+    "last_changed": "2026-10-09T09:45:56.410097+00:00",
+    "last_reported": "2026-10-09T09:45:56.410097+00:00",
+    "last_updated": "2026-10-09T09:45:56.410097+00:00",
+    "context": {
+      "id": "01M4G0W5DT7YWQXJVHVDCT830Z",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_energy_heating",
+    "state": "14826.1",
+    "attributes": {
+      "state_class": "total_increasing",
+      "unit_of_measurement": "kWh",
+      "device_class": "energy",
+      "friendly_name": "Energie topeni",
+      "icon": "mdi:radiator"
+    },
+    "last_changed": "2026-10-09T09:46:06.397698+00:00",
+    "last_reported": "2026-10-09T09:46:06.397698+00:00",
+    "last_updated": "2026-10-09T09:46:06.397698+00:00",
+    "context": {
+      "id": "01M4G0WF5XGFAX85YSX008T27W",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_dhw_energy",
+    "state": "1671.9",
+    "attributes": {
+      "state_class": "total_increasing",
+      "unit_of_measurement": "kWh",
+      "device_class": "energy",
+      "friendly_name": "Energie ohrev vody",
+      "icon": "mdi:water-boiler"
+    },
+    "last_changed": "2026-10-09T09:17:16.446090+00:00",
+    "last_reported": "2026-10-09T09:17:16.446090+00:00",
+    "last_updated": "2026-10-09T09:17:16.446090+00:00",
+    "context": {
+      "id": "01M4FZ7NRYJXSW6DY49W7XMDAY",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.zachod_zebrik_battery",
+    "state": "10",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "%",
+      "device_class": "battery",
+      "friendly_name": "záchod žebřík Battery"
+    },
+    "last_changed": "2026-10-08T05:33:43.085148+00:00",
+    "last_reported": "2026-10-08T05:33:43.085148+00:00",
+    "last_updated": "2026-10-08T05:33:43.085148+00:00",
+    "context": {
+      "id": "01M4D01KSDAPGN9WTM1VKQ95A6",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.zachod_zebrik_idle_steps",
+    "state": "246",
+    "attributes": {
+      "friendly_name": "záchod žebřík Idle steps"
+    },
+    "last_changed": "2026-10-08T05:33:43.081271+00:00",
+    "last_reported": "2026-10-08T05:33:43.081271+00:00",
+    "last_updated": "2026-10-08T05:33:43.081271+00:00",
+    "context": {
+      "id": "01M4D01KS9JZER71W81T8K81JZ",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.zachod_zebrik_closing_steps",
+    "state": "456",
+    "attributes": {
+      "friendly_name": "záchod žebřík Closing steps"
+    },
+    "last_changed": "2026-10-08T05:33:43.079043+00:00",
+    "last_reported": "2026-10-08T05:33:43.079043+00:00",
+    "last_updated": "2026-10-08T05:33:43.079043+00:00",
+    "context": {
+      "id": "01M4D01KS7G4FY8EN8SE5EJXRG",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.zachod_zebrik_valve_opening_limit_voltage",
+    "state": "1796",
+    "attributes": {
+      "unit_of_measurement": "mV",
+      "friendly_name": "záchod žebřík Valve opening limit voltage"
+    },
+    "last_changed": "2026-10-08T05:33:43.079355+00:00",
+    "last_reported": "2026-10-08T05:33:43.079355+00:00",
+    "last_updated": "2026-10-08T05:33:43.079355+00:00",
+    "context": {
+      "id": "01M4D01KS7ZK6NDTJF3G115MAN",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.zachod_zebrik_valve_closing_limit_voltage",
+    "state": "2662",
+    "attributes": {
+      "unit_of_measurement": "mV",
+      "friendly_name": "záchod žebřík Valve closing limit voltage"
+    },
+    "last_changed": "2026-10-08T05:33:43.081625+00:00",
+    "last_reported": "2026-10-08T05:33:43.081625+00:00",
+    "last_updated": "2026-10-08T05:33:43.081625+00:00",
+    "context": {
+      "id": "01M4D01KS9F8SRGQJ4V0E8XHQY",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.zachod_zebrik_valve_motor_running_voltage",
+    "state": "1103",
+    "attributes": {
+      "unit_of_measurement": "mV",
+      "friendly_name": "záchod žebřík Valve motor running voltage"
+    },
+    "last_changed": "2026-10-08T05:33:43.079209+00:00",
+    "last_reported": "2026-10-08T05:33:43.079209+00:00",
+    "last_updated": "2026-10-08T05:33:43.079209+00:00",
+    "context": {
+      "id": "01M4D01KS7G3G75ECPC8RQE5Q3",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.zachod_zebrik_linkquality",
+    "state": "148",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "lqi",
+      "icon": "mdi:signal",
+      "friendly_name": "záchod žebřík Linkquality"
+    },
+    "last_changed": "2026-10-08T05:33:43.084610+00:00",
+    "last_reported": "2026-10-08T05:33:43.084610+00:00",
+    "last_updated": "2026-10-08T05:33:43.084610+00:00",
+    "context": {
+      "id": "01M4D01KSC62V7JRSQQQ8KQGNN",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.zachod_zebrik_local_temperature",
+    "state": "20",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "záchod žebřík Temperature"
+    },
+    "last_changed": "2026-10-08T05:33:43.085325+00:00",
+    "last_reported": "2026-10-08T05:33:43.085325+00:00",
+    "last_updated": "2026-10-08T05:33:43.085325+00:00",
+    "context": {
+      "id": "01M4D01KSDQF96N887TQF0QR78",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.zachod_temperature",
+    "state": "20.97",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "zachod Temperature"
+    },
+    "last_changed": "2026-10-08T05:33:43.070595+00:00",
+    "last_reported": "2026-10-08T05:33:43.070595+00:00",
+    "last_updated": "2026-10-08T05:33:43.070595+00:00",
+    "context": {
+      "id": "01M4D01KRY8097BVBJQXRRCZXY",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.zachod_humidity",
+    "state": "26.78",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "%",
+      "device_class": "humidity",
+      "friendly_name": "zachod Humidity"
+    },
+    "last_changed": "2026-10-08T05:33:43.070196+00:00",
+    "last_reported": "2026-10-08T05:33:43.070196+00:00",
+    "last_updated": "2026-10-08T05:33:43.070196+00:00",
+    "context": {
+      "id": "01M4D01KRYZH064ZNSQG9TN55R",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.zachod_pressure",
+    "state": "981.4",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "hPa",
+      "device_class": "atmospheric_pressure",
+      "friendly_name": "zachod Atmospheric pressure"
+    },
+    "last_changed": "2026-10-08T05:33:43.070486+00:00",
+    "last_reported": "2026-10-08T05:33:43.070486+00:00",
+    "last_updated": "2026-10-08T05:33:43.070486+00:00",
+    "context": {
+      "id": "01M4D01KRYJZQQRVM4XBDJ2HK8",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.zachod_device_temperature",
+    "state": "20",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "zachod Temperature"
+    },
+    "last_changed": "2026-10-08T05:33:43.070958+00:00",
+    "last_reported": "2026-10-08T05:33:43.070958+00:00",
+    "last_updated": "2026-10-08T05:33:43.070958+00:00",
+    "context": {
+      "id": "01M4D01KRY88C0ZNP363RRRXDK",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.zachod_battery",
+    "state": "100",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "%",
+      "device_class": "battery",
+      "friendly_name": "zachod Battery"
+    },
+    "last_changed": "2026-10-08T05:33:43.070712+00:00",
+    "last_reported": "2026-10-08T05:33:43.070712+00:00",
+    "last_updated": "2026-10-08T05:33:43.070712+00:00",
+    "context": {
+      "id": "01M4D01KRYBFEY9MZ691DQQBBD",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.zachod_voltage",
+    "state": "3063",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "mV",
+      "device_class": "voltage",
+      "friendly_name": "zachod Voltage"
+    },
+    "last_changed": "2026-10-08T05:33:43.070361+00:00",
+    "last_reported": "2026-10-08T05:33:43.070361+00:00",
+    "last_updated": "2026-10-08T05:33:43.070361+00:00",
+    "context": {
+      "id": "01M4D01KRYXJF0G6NM93WEC81A",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.boiler_force_heating_off",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Vynucene vypnuti topeni",
+      "icon": "mdi:radiator-off"
+    },
+    "last_changed": "2026-10-09T08:17:55.603472+00:00",
+    "last_reported": "2026-10-09T08:17:55.603472+00:00",
+    "last_updated": "2026-10-09T08:17:55.603472+00:00",
+    "context": {
+      "id": "01M4FVV0CK9CVFK80QSHCHA47N",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.boiler_heatingcurve_on",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Ekvitermni regulace",
+      "icon": "mdi:chart-line"
+    },
+    "last_changed": "2026-10-09T08:17:55.599827+00:00",
+    "last_reported": "2026-10-09T08:17:55.599827+00:00",
+    "last_updated": "2026-10-09T08:17:55.599827+00:00",
+    "context": {
+      "id": "01M4FVV0CFJ96D9C4SWF4WNAG9",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.boiler_nofrost_mode",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "ems-esp Boiler Nofrost mode"
+    },
+    "last_changed": "2026-10-09T08:17:55.598573+00:00",
+    "last_reported": "2026-10-09T08:17:55.598573+00:00",
+    "last_updated": "2026-10-09T08:17:55.598573+00:00",
+    "context": {
+      "id": "01M4FVV0CE8J2AYP98SKEYEDM1",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.heating_activated",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "ems-esp Boiler Heating activated"
+    },
+    "last_changed": "2026-10-09T08:17:55.633377+00:00",
+    "last_reported": "2026-10-09T08:17:55.633377+00:00",
+    "last_updated": "2026-10-09T08:17:55.633377+00:00",
+    "context": {
+      "id": "01M4FVV0DHTMGZBEJM4KS58EPS",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.boiler_emergency_operation",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "ems-esp Boiler Emergency operation"
+    },
+    "last_changed": "2026-10-09T08:17:55.599357+00:00",
+    "last_reported": "2026-10-09T08:17:55.599357+00:00",
+    "last_updated": "2026-10-09T08:17:55.599357+00:00",
+    "context": {
+      "id": "01M4FVV0CF16KWZN1R7JVFE7GK",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.boiler_dhw_charge_optimization",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "ems-esp Boiler dhw Charge optimization"
+    },
+    "last_changed": "2026-10-09T08:17:55.626927+00:00",
+    "last_reported": "2026-10-09T08:17:55.626927+00:00",
+    "last_updated": "2026-10-09T08:17:55.626927+00:00",
+    "context": {
+      "id": "01M4FVV0DA2A3ZFZ4YZHJKH74Z",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.boiler_dhw_activated",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "ems-esp Boiler dhw Activated"
+    },
+    "last_changed": "2026-10-09T09:17:08.394881+00:00",
+    "last_reported": "2026-10-09T09:17:08.394881+00:00",
+    "last_updated": "2026-10-09T09:17:08.394881+00:00",
+    "context": {
+      "id": "01M4FZ7C0AR70TN952W8PGZN9G",
+      "parent_id": "01M4FZ7C09SVA8347VC20MY8ZN",
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.boiler_dhw_one_time_charging",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "ems-esp Boiler dhw One time charging"
+    },
+    "last_changed": "2026-10-09T08:17:55.632429+00:00",
+    "last_reported": "2026-10-09T08:17:55.632429+00:00",
+    "last_updated": "2026-10-09T08:17:55.632429+00:00",
+    "context": {
+      "id": "01M4FVV0DGVRJ2QJGFF4DMNBY8",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.boiler_dhw_disinfecting",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "ems-esp Boiler dhw Disinfecting"
+    },
+    "last_changed": "2026-10-09T08:17:55.597741+00:00",
+    "last_reported": "2026-10-09T08:17:55.597741+00:00",
+    "last_updated": "2026-10-09T08:17:55.597741+00:00",
+    "context": {
+      "id": "01M4FVV0CDHSBVHZ8EGARSHQ4K",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.boiler_dhw_dhw_priority",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "ems-esp Boiler dhw Dhw priority"
+    },
+    "last_changed": "2026-10-09T08:17:55.655267+00:00",
+    "last_reported": "2026-10-09T08:17:55.655267+00:00",
+    "last_updated": "2026-10-09T08:17:55.655267+00:00",
+    "context": {
+      "id": "01M4FVV0E7MPY6E6W3W3PX9K07",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.zachod_zebrik_child_lock",
+    "state": "off",
+    "attributes": {
+      "icon": "mdi:account-lock",
+      "friendly_name": "záchod žebřík Child lock"
+    },
+    "last_changed": "2026-10-08T05:33:43.078580+00:00",
+    "last_reported": "2026-10-08T05:33:43.078580+00:00",
+    "last_updated": "2026-10-08T05:33:43.078580+00:00",
+    "context": {
+      "id": "01M4D01KS6PZNAVC9N0GD43ZCW",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.zachod_zebrik_open_window",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "záchod žebřík Open window"
+    },
+    "last_changed": "2026-10-08T05:33:43.081104+00:00",
+    "last_reported": "2026-10-08T05:33:43.081104+00:00",
+    "last_updated": "2026-10-08T05:33:43.081104+00:00",
+    "context": {
+      "id": "01M4D01KS93DW2N7Z4CZQF6T0Z",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.zachod_zebrik_smart_temperature_control",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "záchod žebřík Smart temperature control"
+    },
+    "last_changed": "2026-10-08T05:33:43.080972+00:00",
+    "last_reported": "2026-10-08T05:33:43.080972+00:00",
+    "last_updated": "2026-10-08T05:33:43.080972+00:00",
+    "context": {
+      "id": "01M4D01KS88T0GFE9V4DDKC30R",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "text.boiler_next_maintenance_date",
+    "state": "15.12.2026",
+    "attributes": {
+      "mode": "text",
+      "min": 0,
+      "max": 255,
+      "pattern": null,
+      "friendly_name": "ems-esp Boiler Next maintenance date"
+    },
+    "last_changed": "2026-10-09T08:17:55.672883+00:00",
+    "last_reported": "2026-10-09T08:17:55.672883+00:00",
+    "last_updated": "2026-10-09T08:17:55.672883+00:00",
+    "context": {
+      "id": "01M4FVV0ERNQPSPXXVQ5QRDNFZ",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "text.zachod_zebrik_weekly_schedule_sunday",
+    "state": "00:00/16 07:00/19 10:00/19 10:00/19 10:00/19 23:00/16",
+    "attributes": {
+      "mode": "text",
+      "min": 0,
+      "max": 255,
+      "pattern": null,
+      "friendly_name": "záchod žebřík Weekly schedule sunday"
+    },
+    "last_changed": "2026-10-08T05:33:43.079678+00:00",
+    "last_reported": "2026-10-08T05:33:43.079678+00:00",
+    "last_updated": "2026-10-08T05:33:43.079678+00:00",
+    "context": {
+      "id": "01M4D01KS7XFTWXWPDFJ0N64WT",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "text.zachod_zebrik_weekly_schedule_monday",
+    "state": "00:00/16 07:00/19 10:00/16 10:00/16 17:00/19 23:00/16",
+    "attributes": {
+      "mode": "text",
+      "min": 0,
+      "max": 255,
+      "pattern": null,
+      "friendly_name": "záchod žebřík Weekly schedule monday"
+    },
+    "last_changed": "2026-10-08T05:33:43.080835+00:00",
+    "last_reported": "2026-10-08T05:33:43.080835+00:00",
+    "last_updated": "2026-10-08T05:33:43.080835+00:00",
+    "context": {
+      "id": "01M4D01KS8C1FTCMFX90GP0QTH",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "text.zachod_zebrik_weekly_schedule_tuesday",
+    "state": "00:00/16 07:00/19 10:00/16 10:00/16 17:00/19 23:00/16",
+    "attributes": {
+      "mode": "text",
+      "min": 0,
+      "max": 255,
+      "pattern": null,
+      "friendly_name": "záchod žebřík Weekly schedule tuesday"
+    },
+    "last_changed": "2026-10-08T05:33:43.080222+00:00",
+    "last_reported": "2026-10-08T05:33:43.080222+00:00",
+    "last_updated": "2026-10-08T05:33:43.080222+00:00",
+    "context": {
+      "id": "01M4D01KS85CTX48WB5TZ727F8",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "text.zachod_zebrik_weekly_schedule_wednesday",
+    "state": "00:00/16 07:00/19 10:00/16 10:00/16 17:00/19 23:00/16",
+    "attributes": {
+      "mode": "text",
+      "min": 0,
+      "max": 255,
+      "pattern": null,
+      "friendly_name": "záchod žebřík Weekly schedule wednesday"
+    },
+    "last_changed": "2026-10-08T05:33:43.084408+00:00",
+    "last_reported": "2026-10-08T05:33:43.084408+00:00",
+    "last_updated": "2026-10-08T05:33:43.084408+00:00",
+    "context": {
+      "id": "01M4D01KSC03PT2TYMJYPD73BV",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "text.zachod_zebrik_weekly_schedule_thursday",
+    "state": "00:00/16 07:00/19 10:00/16 10:00/16 17:00/19 23:00/16",
+    "attributes": {
+      "mode": "text",
+      "min": 0,
+      "max": 255,
+      "pattern": null,
+      "friendly_name": "záchod žebřík Weekly schedule thursday"
+    },
+    "last_changed": "2026-10-08T05:33:43.079856+00:00",
+    "last_reported": "2026-10-08T05:33:43.079856+00:00",
+    "last_updated": "2026-10-08T05:33:43.079856+00:00",
+    "context": {
+      "id": "01M4D01KS7P8YABTXF15594NHR",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "text.zachod_zebrik_weekly_schedule_friday",
+    "state": "00:00/16 07:00/19 10:00/16 10:00/16 17:00/19 23:00/16",
+    "attributes": {
+      "mode": "text",
+      "min": 0,
+      "max": 255,
+      "pattern": null,
+      "friendly_name": "záchod žebřík Weekly schedule friday"
+    },
+    "last_changed": "2026-10-08T05:33:43.080688+00:00",
+    "last_reported": "2026-10-08T05:33:43.080688+00:00",
+    "last_updated": "2026-10-08T05:33:43.080688+00:00",
+    "context": {
+      "id": "01M4D01KS8TK3MNGZDK9Y968K1",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "text.zachod_zebrik_weekly_schedule_saturday",
+    "state": "00:00/16 07:00/19 10:00/19 10:00/19 10:00/19 23:00/16",
+    "attributes": {
+      "mode": "text",
+      "min": 0,
+      "max": 255,
+      "pattern": null,
+      "friendly_name": "záchod žebřík Weekly schedule saturday"
+    },
+    "last_changed": "2026-10-08T05:33:43.079517+00:00",
+    "last_reported": "2026-10-08T05:33:43.079517+00:00",
+    "last_updated": "2026-10-08T05:33:43.079517+00:00",
+    "context": {
+      "id": "01M4D01KS7BP4XYG0YGCKV3GKB",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_dhw_gas_meter_cost",
+    "state": "3.75",
+    "attributes": {
+      "state_class": "total",
+      "last_reset": "2026-10-08T05:32:45.688407+00:00",
+      "unit_of_measurement": "CZK",
+      "device_class": "monetary",
+      "friendly_name": "Plyn - teply voda Cost"
+    },
+    "last_changed": "2026-10-09T09:27:46.450634+00:00",
+    "last_reported": "2026-10-09T09:27:46.450634+00:00",
+    "last_updated": "2026-10-09T09:27:46.450634+00:00",
+    "context": {
+      "id": "01M4FZTX0J604PW659Q0XCCRAC",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_gas_meter_heating_cost",
+    "state": "14.8499999999995",
+    "attributes": {
+      "state_class": "total",
+      "last_reset": "2026-10-08T05:32:45.689581+00:00",
+      "unit_of_measurement": "CZK",
+      "device_class": "monetary",
+      "friendly_name": "Plyn - topeni Cost"
+    },
+    "last_changed": "2026-10-09T09:17:46.421022+00:00",
+    "last_reported": "2026-10-09T09:17:46.421022+00:00",
+    "last_updated": "2026-10-09T09:17:46.421022+00:00",
+    "context": {
+      "id": "01M4FZ8K1N18WDP13NQAEJK4HJ",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.teplota_venku_min",
+    "state": "8.53612518310547",
+    "attributes": {
+      "state_class": "measurement",
+      "entity_id": [
+        "sensor.teplota_venku"
+      ],
+      "min_entity_id": "sensor.teplota_venku",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "icon": "mdi:calculator",
+      "friendly_name": "Teplota venku min"
+    },
+    "last_changed": "2026-10-09T09:45:00.878617+00:00",
+    "last_reported": "2026-10-09T09:45:00.878617+00:00",
+    "last_updated": "2026-10-09T09:45:00.878617+00:00",
+    "context": {
+      "id": "01M4G0TF6EV4E2K9WHDNM0JVYV",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.teplota_venku_max",
+    "state": "8.53612518310547",
+    "attributes": {
+      "state_class": "measurement",
+      "entity_id": [
+        "sensor.teplota_venku"
+      ],
+      "max_entity_id": "sensor.teplota_venku",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "icon": "mdi:calculator",
+      "friendly_name": "Teplota venku max"
+    },
+    "last_changed": "2026-10-09T09:45:00.878707+00:00",
+    "last_reported": "2026-10-09T09:45:00.878707+00:00",
+    "last_updated": "2026-10-09T09:45:00.878707+00:00",
+    "context": {
+      "id": "01M4G0TF6EW1JFH3Z8WMRV126V",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.teplota_venku_avg",
+    "state": "8.5",
+    "attributes": {
+      "state_class": "measurement",
+      "entity_id": [
+        "sensor.teplota_venku"
+      ],
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "icon": "mdi:calculator",
+      "friendly_name": "Teplota venku avg"
+    },
+    "last_changed": "2026-10-09T09:42:00.907257+00:00",
+    "last_reported": "2026-10-09T09:42:00.907257+00:00",
+    "last_updated": "2026-10-09T09:42:00.907257+00:00",
+    "context": {
+      "id": "01M4G0MZEB8F7JDSQYZ485SQ34",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.boiler_switch_0",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "boiler switch 0"
+    },
+    "last_changed": "2026-10-08T12:50:25.076050+00:00",
+    "last_reported": "2026-10-08T12:50:25.076050+00:00",
+    "last_updated": "2026-10-08T12:50:25.076050+00:00",
+    "context": {
+      "id": "01M4DS17M8MM1NN91P6G47ZW50",
+      "parent_id": null,
+      "user_id": "e67ed8ecc4c849cdab5b4412afe01b37"
+    }
+  },
+  {
+    "entity_id": "switch.boiler_switch_1",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "boiler switch 1"
+    },
+    "last_changed": "2026-10-08T10:19:25.065049+00:00",
+    "last_reported": "2026-10-08T10:19:25.065049+00:00",
+    "last_updated": "2026-10-08T10:19:25.065049+00:00",
+    "context": {
+      "id": "01M4DGCQY25D5W5CPMTPFJ4BFE",
+      "parent_id": null,
+      "user_id": "e67ed8ecc4c849cdab5b4412afe01b37"
+    }
+  },
+  {
+    "entity_id": "switch.boiler_switch_2",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "boiler switch 2"
+    },
+    "last_changed": "2026-10-08T05:32:46.217973+00:00",
+    "last_reported": "2026-10-08T05:33:07.646698+00:00",
+    "last_updated": "2026-10-08T05:32:46.217973+00:00",
+    "context": {
+      "id": "01M4CZZW89T4KZZF1D2VFRWE9G",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_spotreba_1",
+    "state": "0.0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "W",
+      "device_class": "power",
+      "friendly_name": "Boiler 1"
+    },
+    "last_changed": "2026-10-09T09:45:04.583189+00:00",
+    "last_reported": "2026-10-09T09:45:04.583189+00:00",
+    "last_updated": "2026-10-09T09:45:04.583189+00:00",
+    "context": {
+      "id": "01M4G0TJT7276EH732YCXWZH6V",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_spotreba_0",
+    "state": "8.9",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "W",
+      "device_class": "power",
+      "friendly_name": "Boiler 0"
+    },
+    "last_changed": "2026-10-09T09:46:08.386655+00:00",
+    "last_reported": "2026-10-09T09:46:08.386655+00:00",
+    "last_updated": "2026-10-09T09:46:08.386655+00:00",
+    "context": {
+      "id": "01M4G0WH42TDDMYEQ9D9552K0P",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_spotreba_2",
+    "state": "0.0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "W",
+      "device_class": "power",
+      "friendly_name": "Boiler 2"
+    },
+    "last_changed": "2026-10-09T09:30:29.384427+00:00",
+    "last_reported": "2026-10-09T09:30:29.384427+00:00",
+    "last_updated": "2026-10-09T09:30:29.384427+00:00",
+    "context": {
+      "id": "01M4FZZW48AKTAFVV5CXXFYFWR",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_spotreba_total_active_power",
+    "state": "8.866",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "W",
+      "device_class": "power",
+      "friendly_name": "Boiler power"
+    },
+    "last_changed": "2026-10-09T09:46:08.387815+00:00",
+    "last_reported": "2026-10-09T09:46:08.387815+00:00",
+    "last_updated": "2026-10-09T09:46:08.387815+00:00",
+    "context": {
+      "id": "01M4G0WH43QMJ34T0VGXDD63AR",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_spotreba_total_active_energy",
+    "state": "2163.97528",
+    "attributes": {
+      "state_class": "total_increasing",
+      "unit_of_measurement": "kWh",
+      "device_class": "energy",
+      "friendly_name": "Boiler energy"
+    },
+    "last_changed": "2026-10-09T09:46:00.470639+00:00",
+    "last_reported": "2026-10-09T09:46:00.470639+00:00",
+    "last_updated": "2026-10-09T09:46:00.470639+00:00",
+    "context": {
+      "id": "01M4G0W9CPG6D60EMGJDTMPEDM",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.teplota_uvnitr",
+    "state": "23.5",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "pohyb galerie Air temperature",
+      "icon": "mdi:thermometer"
+    },
+    "last_changed": "2026-10-09T09:01:10.698379+00:00",
+    "last_reported": "2026-10-09T09:01:10.698379+00:00",
+    "last_updated": "2026-10-09T09:01:10.698379+00:00",
+    "context": {
+      "id": "01M4FYA6NA7KBNMB8TKFZ9GM14",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.termostat_obyvak_node_status",
+    "state": "asleep",
+    "attributes": {
+      "friendly_name": "termostat obývák Node status"
+    },
+    "last_changed": "2026-10-09T09:46:09.964243+00:00",
+    "last_reported": "2026-10-09T09:46:09.964243+00:00",
+    "last_updated": "2026-10-09T09:46:09.964243+00:00",
+    "context": {
+      "id": "01M4G0WJNCC5FCSMW6P2RR3Z99",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "climate.termostat_obyvak",
+    "state": "heat",
+    "attributes": {
+      "hvac_modes": [
+        "heat"
+      ],
+      "min_temp": 0.0,
+      "max_temp": 50.0,
+      "current_temperature": null,
+      "temperature": 21,
+      "friendly_name": "termostat obývák",
+      "supported_features": 1
+    },
+    "last_changed": "2026-10-08T05:32:48.470695+00:00",
+    "last_reported": "2026-10-09T08:52:46.885323+00:00",
+    "last_updated": "2026-10-09T08:52:46.885323+00:00",
+    "context": {
+      "id": "01M4FXTTN5CX1CCVW6V652AB0Q",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "climate.termostat_obyvak_2",
+    "state": "heat",
+    "attributes": {
+      "hvac_modes": [
+        "heat"
+      ],
+      "min_temp": 0.0,
+      "max_temp": 50.0,
+      "current_temperature": null,
+      "temperature": 21,
+      "friendly_name": "termostat obývák",
+      "supported_features": 1
+    },
+    "last_changed": "2026-10-08T05:32:48.471997+00:00",
+    "last_reported": "2026-10-09T08:52:46.895786+00:00",
+    "last_updated": "2026-10-09T08:52:46.895786+00:00",
+    "context": {
+      "id": "01M4FXTTNFN8NN6WRCP18HY2PV",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "select.termostat_obyvak_rf_protection_state",
+    "state": "unknown",
+    "attributes": {
+      "options": [],
+      "friendly_name": "termostat obývák RF protection state"
+    },
+    "last_changed": "2026-10-08T05:32:48.476375+00:00",
+    "last_reported": "2026-10-08T05:32:48.476375+00:00",
+    "last_updated": "2026-10-08T05:32:48.476375+00:00",
+    "context": {
+      "id": "01M4CZZYEWX4A68MT1TPTVFNJK",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "select.termostat_obyvak_local_protection_state",
+    "state": "Unprotected",
+    "attributes": {
+      "options": [
+        "Unprotected",
+        "NoOperationPossible"
+      ],
+      "friendly_name": "termostat obývák Local protection state"
+    },
+    "last_changed": "2026-10-08T05:32:48.482275+00:00",
+    "last_reported": "2026-10-08T05:32:48.482275+00:00",
+    "last_updated": "2026-10-08T05:32:48.482275+00:00",
+    "context": {
+      "id": "01M4CZZYF2VXCJT5FF5C661RTJ",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.termostat_obyvak_battery_level",
+    "state": "42.0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "%",
+      "device_class": "battery",
+      "friendly_name": "termostat obývák Battery level"
+    },
+    "last_changed": "2026-10-09T09:46:09.657567+00:00",
+    "last_reported": "2026-10-09T09:46:09.657567+00:00",
+    "last_updated": "2026-10-09T09:46:09.657567+00:00",
+    "context": {
+      "id": "01M4G0WJBSYAZ70X0CTZFP0V3N",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.termostat_nad_schody_node_status",
+    "state": "asleep",
+    "attributes": {
+      "friendly_name": "termostat nad schody Node status"
+    },
+    "last_changed": "2026-10-09T09:45:57.408852+00:00",
+    "last_reported": "2026-10-09T09:45:57.408852+00:00",
+    "last_updated": "2026-10-09T09:45:57.408852+00:00",
+    "context": {
+      "id": "01M4G0W6D0H5690DEZWEAAKNN5",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "climate.termostat_nad_schody",
+    "state": "heat",
+    "attributes": {
+      "hvac_modes": [
+        "heat"
+      ],
+      "min_temp": 0.0,
+      "max_temp": 50.0,
+      "current_temperature": null,
+      "temperature": 23,
+      "friendly_name": "termostat nad schody",
+      "supported_features": 1
+    },
+    "last_changed": "2026-10-08T05:32:48.491885+00:00",
+    "last_reported": "2026-10-09T06:03:58.573107+00:00",
+    "last_updated": "2026-10-09T06:03:58.573107+00:00",
+    "context": {
+      "id": "01M4FM5QQDQ4AMAG51ZMZWH0SQ",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "select.termostat_nad_schody_rf_protection_state",
+    "state": "unknown",
+    "attributes": {
+      "options": [],
+      "friendly_name": "termostat nad schody RF protection state"
+    },
+    "last_changed": "2026-10-08T05:32:48.494263+00:00",
+    "last_reported": "2026-10-08T05:32:48.494263+00:00",
+    "last_updated": "2026-10-08T05:32:48.494263+00:00",
+    "context": {
+      "id": "01M4CZZYFEEDESVD6HQNEPXEY0",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "select.termostat_nad_schody_local_protection_state",
+    "state": "Unprotected",
+    "attributes": {
+      "options": [
+        "Unprotected",
+        "NoOperationPossible"
+      ],
+      "friendly_name": "termostat nad schody Local protection state"
+    },
+    "last_changed": "2026-10-08T05:32:48.501671+00:00",
+    "last_reported": "2026-10-08T05:32:48.501671+00:00",
+    "last_updated": "2026-10-08T05:32:48.501671+00:00",
+    "context": {
+      "id": "01M4CZZYFNCP9AWPN0C3T0TY9X",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.termostat_nad_schody_battery_level",
+    "state": "40.0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "%",
+      "device_class": "battery",
+      "friendly_name": "termostat nad schody Battery level"
+    },
+    "last_changed": "2026-10-08T05:32:48.503334+00:00",
+    "last_reported": "2026-10-08T05:32:48.503334+00:00",
+    "last_updated": "2026-10-08T05:32:48.503334+00:00",
+    "context": {
+      "id": "01M4CZZYFQSP5NX3EVG8S7X563",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.termostat_galerie_node_status",
+    "state": "asleep",
+    "attributes": {
+      "friendly_name": "termostat galerie Node status"
+    },
+    "last_changed": "2026-10-09T09:43:30.561815+00:00",
+    "last_reported": "2026-10-09T09:43:30.561815+00:00",
+    "last_updated": "2026-10-09T09:43:30.561815+00:00",
+    "context": {
+      "id": "01M4G0QQ012P9WRTFBKT49XYQC",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "climate.termostat_galerie",
+    "state": "heat",
+    "attributes": {
+      "hvac_modes": [
+        "heat"
+      ],
+      "min_temp": 0.0,
+      "max_temp": 50.0,
+      "current_temperature": null,
+      "temperature": 23,
+      "friendly_name": "termostat galerie",
+      "supported_features": 1
+    },
+    "last_changed": "2026-10-08T05:32:48.509415+00:00",
+    "last_reported": "2026-10-09T06:00:45.397113+00:00",
+    "last_updated": "2026-10-09T06:00:45.397113+00:00",
+    "context": {
+      "id": "01M4FKZV2N5TP0SKCT8FS73SGX",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "select.termostat_galerie_rf_protection_state",
+    "state": "unknown",
+    "attributes": {
+      "options": [],
+      "friendly_name": "termostat galerie RF protection state"
+    },
+    "last_changed": "2026-10-08T05:32:48.511717+00:00",
+    "last_reported": "2026-10-08T05:32:48.511717+00:00",
+    "last_updated": "2026-10-08T05:32:48.511717+00:00",
+    "context": {
+      "id": "01M4CZZYFZM1CVBDPCSQN0CG75",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "select.termostat_galerie_local_protection_state",
+    "state": "Unprotected",
+    "attributes": {
+      "options": [
+        "Unprotected",
+        "NoOperationPossible"
+      ],
+      "friendly_name": "termostat galerie Local protection state"
+    },
+    "last_changed": "2026-10-08T05:32:48.512353+00:00",
+    "last_reported": "2026-10-08T05:32:48.512353+00:00",
+    "last_updated": "2026-10-08T05:32:48.512353+00:00",
+    "context": {
+      "id": "01M4CZZYG0G7DQW6QY9YAJRD4X",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.termostat_galerie_battery_level",
+    "state": "40.0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "%",
+      "device_class": "battery",
+      "friendly_name": "termostat galerie Battery level"
+    },
+    "last_changed": "2026-10-08T05:32:48.513165+00:00",
+    "last_reported": "2026-10-08T05:32:48.513165+00:00",
+    "last_updated": "2026-10-08T05:32:48.513165+00:00",
+    "context": {
+      "id": "01M4CZZYG18ZHMDP0N2ZTFV58A",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.termostat_jidelna_node_status",
+    "state": "asleep",
+    "attributes": {
+      "friendly_name": "termostat jídelna Node status"
+    },
+    "last_changed": "2026-10-09T09:45:45.185220+00:00",
+    "last_reported": "2026-10-09T09:45:45.185220+00:00",
+    "last_updated": "2026-10-09T09:45:45.185220+00:00",
+    "context": {
+      "id": "01M4G0VTF1XRYRYQP9JWZCMQ20",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "climate.termostat_jidelna",
+    "state": "heat",
+    "attributes": {
+      "hvac_modes": [
+        "heat"
+      ],
+      "min_temp": 0.0,
+      "max_temp": 50.0,
+      "current_temperature": null,
+      "temperature": 21,
+      "friendly_name": "termostat jídelna",
+      "supported_features": 1
+    },
+    "last_changed": "2026-10-08T05:32:48.517888+00:00",
+    "last_reported": "2026-10-09T08:51:27.443927+00:00",
+    "last_updated": "2026-10-09T08:51:27.443927+00:00",
+    "context": {
+      "id": "01M4FXRD2K5VFT3FX60ZCB5NXZ",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "select.termostat_jidelna_rf_protection_state",
+    "state": "unknown",
+    "attributes": {
+      "options": [],
+      "friendly_name": "termostat jídelna RF protection state"
+    },
+    "last_changed": "2026-10-08T05:32:48.519166+00:00",
+    "last_reported": "2026-10-08T05:32:48.519166+00:00",
+    "last_updated": "2026-10-08T05:32:48.519166+00:00",
+    "context": {
+      "id": "01M4CZZYG7KXZZ120GJYF8EXK5",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "select.termostat_jidelna_local_protection_state",
+    "state": "Unprotected",
+    "attributes": {
+      "options": [
+        "Unprotected",
+        "NoOperationPossible"
+      ],
+      "friendly_name": "termostat jídelna Local protection state"
+    },
+    "last_changed": "2026-10-08T05:32:48.519600+00:00",
+    "last_reported": "2026-10-08T05:32:48.519600+00:00",
+    "last_updated": "2026-10-08T05:32:48.519600+00:00",
+    "context": {
+      "id": "01M4CZZYG7KFEDARSRXXNEJ4DV",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.termostat_jidelna_battery_level",
+    "state": "40.0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "%",
+      "device_class": "battery",
+      "friendly_name": "termostat jídelna Battery level"
+    },
+    "last_changed": "2026-10-08T05:32:48.520526+00:00",
+    "last_reported": "2026-10-08T05:32:48.520526+00:00",
+    "last_updated": "2026-10-08T05:32:48.520526+00:00",
+    "context": {
+      "id": "01M4CZZYG8KJWC5XETY309J8KX",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.termostat_pracovna_node_status",
+    "state": "asleep",
+    "attributes": {
+      "friendly_name": "termostat pracovna Node status"
+    },
+    "last_changed": "2026-10-09T09:42:37.403348+00:00",
+    "last_reported": "2026-10-09T09:42:37.403348+00:00",
+    "last_updated": "2026-10-09T09:42:37.403348+00:00",
+    "context": {
+      "id": "01M4G0P32V1H3WHQH81BFY0SCK",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "climate.termostat_pracovna",
+    "state": "heat",
+    "attributes": {
+      "hvac_modes": [
+        "heat"
+      ],
+      "min_temp": 0.0,
+      "max_temp": 50.0,
+      "current_temperature": null,
+      "temperature": 19,
+      "friendly_name": "termostat pracovna",
+      "supported_features": 1
+    },
+    "last_changed": "2026-10-08T05:32:48.526617+00:00",
+    "last_reported": "2026-10-09T06:04:41.841157+00:00",
+    "last_updated": "2026-10-09T06:04:41.841157+00:00",
+    "context": {
+      "id": "01M4FM71ZH6RPP5HFDBRF9RA2W",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "select.termostat_pracovna_rf_protection_state",
+    "state": "unknown",
+    "attributes": {
+      "options": [],
+      "friendly_name": "termostat pracovna RF protection state"
+    },
+    "last_changed": "2026-10-08T05:32:48.529888+00:00",
+    "last_reported": "2026-10-08T05:32:48.529888+00:00",
+    "last_updated": "2026-10-08T05:32:48.529888+00:00",
+    "context": {
+      "id": "01M4CZZYGH18Z48V9KHJWK0B38",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "select.termostat_pracovna_local_protection_state",
+    "state": "Unprotected",
+    "attributes": {
+      "options": [
+        "Unprotected",
+        "NoOperationPossible"
+      ],
+      "friendly_name": "termostat pracovna Local protection state"
+    },
+    "last_changed": "2026-10-08T05:32:48.532344+00:00",
+    "last_reported": "2026-10-08T05:32:48.532344+00:00",
+    "last_updated": "2026-10-08T05:32:48.532344+00:00",
+    "context": {
+      "id": "01M4CZZYGMBVRP94EQ2A65CB38",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.termostat_pracovna_battery_level",
+    "state": "40.0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "%",
+      "device_class": "battery",
+      "friendly_name": "termostat pracovna Battery level"
+    },
+    "last_changed": "2026-10-08T05:32:48.535242+00:00",
+    "last_reported": "2026-10-08T05:32:48.535242+00:00",
+    "last_updated": "2026-10-08T05:32:48.535242+00:00",
+    "context": {
+      "id": "01M4CZZYGQMCPX93PHTDSA156J",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.termostat_pod_schody_node_status",
+    "state": "asleep",
+    "attributes": {
+      "friendly_name": "termostat pod schody Node status"
+    },
+    "last_changed": "2026-10-09T09:44:27.577476+00:00",
+    "last_reported": "2026-10-09T09:44:27.577476+00:00",
+    "last_updated": "2026-10-09T09:44:27.577476+00:00",
+    "context": {
+      "id": "01M4G0SENSD9RBPJ00GDB6ST83",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "climate.termostat_pod_schody",
+    "state": "heat",
+    "attributes": {
+      "hvac_modes": [
+        "heat"
+      ],
+      "min_temp": 0.0,
+      "max_temp": 50.0,
+      "current_temperature": null,
+      "temperature": 23.5,
+      "friendly_name": "termostat pod schody",
+      "supported_features": 1
+    },
+    "last_changed": "2026-10-08T05:32:48.547910+00:00",
+    "last_reported": "2026-10-09T06:04:43.256252+00:00",
+    "last_updated": "2026-10-09T06:04:43.256252+00:00",
+    "context": {
+      "id": "01M4FM73BRYQXSPS3YCXTBY073",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "select.termostat_pod_schody_rf_protection_state",
+    "state": "unknown",
+    "attributes": {
+      "options": [],
+      "friendly_name": "termostat pod schody RF protection state"
+    },
+    "last_changed": "2026-10-08T05:32:48.550719+00:00",
+    "last_reported": "2026-10-08T05:32:48.550719+00:00",
+    "last_updated": "2026-10-08T05:32:48.550719+00:00",
+    "context": {
+      "id": "01M4CZZYH69X6220QF2SMMPFEB",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "select.termostat_pod_schody_local_protection_state",
+    "state": "Unprotected",
+    "attributes": {
+      "options": [
+        "Unprotected",
+        "NoOperationPossible"
+      ],
+      "friendly_name": "termostat pod schody Local protection state"
+    },
+    "last_changed": "2026-10-08T05:32:48.551842+00:00",
+    "last_reported": "2026-10-08T05:32:48.551842+00:00",
+    "last_updated": "2026-10-08T05:32:48.551842+00:00",
+    "context": {
+      "id": "01M4CZZYH7Y3SRCX8MNDH35CWB",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.termostat_pod_schody_battery_level",
+    "state": "40.0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "%",
+      "device_class": "battery",
+      "friendly_name": "termostat pod schody Battery level"
+    },
+    "last_changed": "2026-10-08T05:32:48.554145+00:00",
+    "last_reported": "2026-10-08T05:32:48.554145+00:00",
+    "last_updated": "2026-10-08T05:32:48.554145+00:00",
+    "context": {
+      "id": "01M4CZZYHA5TJYZQMEDXPN6XY0",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.termostat_jakub_node_status",
+    "state": "asleep",
+    "attributes": {
+      "friendly_name": "termostat Jakub Node status"
+    },
+    "last_changed": "2026-10-09T09:43:08.877249+00:00",
+    "last_reported": "2026-10-09T09:43:08.877249+00:00",
+    "last_updated": "2026-10-09T09:43:08.877249+00:00",
+    "context": {
+      "id": "01M4G0Q1TDVQJK8V18550554NS",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "climate.termostat_jakub",
+    "state": "heat",
+    "attributes": {
+      "hvac_modes": [
+        "heat"
+      ],
+      "min_temp": 0.0,
+      "max_temp": 50.0,
+      "current_temperature": null,
+      "temperature": 22,
+      "friendly_name": "termostat Jakub",
+      "supported_features": 1
+    },
+    "last_changed": "2026-10-08T05:32:48.559901+00:00",
+    "last_reported": "2026-10-09T07:06:30.819649+00:00",
+    "last_updated": "2026-10-09T07:06:30.819649+00:00",
+    "context": {
+      "id": "01M4FQR813J2G9NEM4WYB3EBA4",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "select.termostat_jakub_rf_protection_state",
+    "state": "unknown",
+    "attributes": {
+      "options": [],
+      "friendly_name": "termostat Jakub RF protection state"
+    },
+    "last_changed": "2026-10-08T05:32:48.561610+00:00",
+    "last_reported": "2026-10-08T05:32:48.561610+00:00",
+    "last_updated": "2026-10-08T05:32:48.561610+00:00",
+    "context": {
+      "id": "01M4CZZYHHRVJJXKWWJDDSEMR0",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "select.termostat_jakub_local_protection_state",
+    "state": "Unprotected",
+    "attributes": {
+      "options": [
+        "Unprotected",
+        "NoOperationPossible"
+      ],
+      "friendly_name": "termostat Jakub Local protection state"
+    },
+    "last_changed": "2026-10-08T05:32:48.562186+00:00",
+    "last_reported": "2026-10-08T05:32:48.562186+00:00",
+    "last_updated": "2026-10-08T05:32:48.562186+00:00",
+    "context": {
+      "id": "01M4CZZYHJE259V27N3QRERYA5",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.termostat_jakub_battery_level",
+    "state": "40.0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "%",
+      "device_class": "battery",
+      "friendly_name": "termostat Jakub Battery level"
+    },
+    "last_changed": "2026-10-08T05:32:48.563316+00:00",
+    "last_reported": "2026-10-08T05:32:48.563316+00:00",
+    "last_updated": "2026-10-08T05:32:48.563316+00:00",
+    "context": {
+      "id": "01M4CZZYHKTMACH843MTT0Z7CZ",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.termostat_klara_node_status",
+    "state": "asleep",
+    "attributes": {
+      "friendly_name": "termostat Klára Node status"
+    },
+    "last_changed": "2026-10-08T05:32:48.565444+00:00",
+    "last_reported": "2026-10-08T05:32:48.565444+00:00",
+    "last_updated": "2026-10-08T05:32:48.565444+00:00",
+    "context": {
+      "id": "01M4CZZYHNFDQSJ1FMYWESXHN9",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "climate.termostat_klara",
+    "state": "heat",
+    "attributes": {
+      "hvac_modes": [
+        "heat"
+      ],
+      "min_temp": 0.0,
+      "max_temp": 50.0,
+      "current_temperature": null,
+      "temperature": 20,
+      "friendly_name": "termostat Klára",
+      "supported_features": 1
+    },
+    "last_changed": "2026-10-08T05:32:48.569622+00:00",
+    "last_reported": "2026-10-08T05:32:48.569622+00:00",
+    "last_updated": "2026-10-08T05:32:48.569622+00:00",
+    "context": {
+      "id": "01M4CZZYHSNZPP9QV21E5BFDXE",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.termostat_klara_battery_level",
+    "state": "40.0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "%",
+      "device_class": "battery",
+      "friendly_name": "termostat Klára Battery level"
+    },
+    "last_changed": "2026-10-08T05:32:48.575783+00:00",
+    "last_reported": "2026-10-08T05:32:48.575783+00:00",
+    "last_updated": "2026-10-08T05:32:48.575783+00:00",
+    "context": {
+      "id": "01M4CZZYHZ7XXZ4W5RMWMF9XXG",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.termostat_loznice_node_status",
+    "state": "asleep",
+    "attributes": {
+      "friendly_name": "termostat ložnice Node status"
+    },
+    "last_changed": "2026-10-09T09:45:29.420430+00:00",
+    "last_reported": "2026-10-09T09:45:29.420430+00:00",
+    "last_updated": "2026-10-09T09:45:29.420430+00:00",
+    "context": {
+      "id": "01M4G0VB2CTH5AKAD36ENQZ2C2",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "climate.termostat_loznice",
+    "state": "heat",
+    "attributes": {
+      "hvac_modes": [
+        "heat"
+      ],
+      "min_temp": 0.0,
+      "max_temp": 50.0,
+      "current_temperature": null,
+      "temperature": 23,
+      "friendly_name": "termostat ložnice",
+      "supported_features": 1
+    },
+    "last_changed": "2026-10-08T05:32:48.582909+00:00",
+    "last_reported": "2026-10-09T06:28:47.714417+00:00",
+    "last_updated": "2026-10-09T06:28:47.714417+00:00",
+    "context": {
+      "id": "01M4FNK5Z274FTBV81XA8TPPK9",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "select.termostat_loznice_rf_protection_state",
+    "state": "unknown",
+    "attributes": {
+      "options": [],
+      "friendly_name": "termostat ložnice RF protection state"
+    },
+    "last_changed": "2026-10-08T05:32:48.584278+00:00",
+    "last_reported": "2026-10-08T05:32:48.584278+00:00",
+    "last_updated": "2026-10-08T05:32:48.584278+00:00",
+    "context": {
+      "id": "01M4CZZYJ87K0Q06VB0A5T4KJ6",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "select.termostat_loznice_local_protection_state",
+    "state": "Unprotected",
+    "attributes": {
+      "options": [
+        "Unprotected",
+        "NoOperationPossible"
+      ],
+      "friendly_name": "termostat ložnice Local protection state"
+    },
+    "last_changed": "2026-10-08T05:32:48.585014+00:00",
+    "last_reported": "2026-10-08T05:32:48.585014+00:00",
+    "last_updated": "2026-10-08T05:32:48.585014+00:00",
+    "context": {
+      "id": "01M4CZZYJ9N0Q83YBW55ZZR1P2",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.termostat_loznice_battery_level",
+    "state": "40.0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "%",
+      "device_class": "battery",
+      "friendly_name": "termostat ložnice Battery level"
+    },
+    "last_changed": "2026-10-08T05:32:48.585865+00:00",
+    "last_reported": "2026-10-08T05:32:48.585865+00:00",
+    "last_updated": "2026-10-08T05:32:48.585865+00:00",
+    "context": {
+      "id": "01M4CZZYJ9796DXDMW5J6NZFB9",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.termostat_satna_node_status",
+    "state": "asleep",
+    "attributes": {
+      "friendly_name": "termostat šatna Node status"
+    },
+    "last_changed": "2026-10-08T05:32:48.612920+00:00",
+    "last_reported": "2026-10-08T05:32:48.612920+00:00",
+    "last_updated": "2026-10-08T05:32:48.612920+00:00",
+    "context": {
+      "id": "01M4CZZYK4BS4SQEC76BB9F9WN",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "climate.termostat_satna",
+    "state": "heat",
+    "attributes": {
+      "hvac_modes": [
+        "heat"
+      ],
+      "min_temp": 0.0,
+      "max_temp": 50.0,
+      "current_temperature": null,
+      "temperature": 20,
+      "friendly_name": "termostat šatna",
+      "supported_features": 1
+    },
+    "last_changed": "2026-10-08T05:32:48.616327+00:00",
+    "last_reported": "2026-10-08T05:32:48.616327+00:00",
+    "last_updated": "2026-10-08T05:32:48.616327+00:00",
+    "context": {
+      "id": "01M4CZZYK89AS39TQCKSY8C7ZZ",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "select.termostat_satna_rf_protection_state",
+    "state": "unknown",
+    "attributes": {
+      "options": [],
+      "friendly_name": "termostat šatna RF protection state"
+    },
+    "last_changed": "2026-10-08T05:32:48.617727+00:00",
+    "last_reported": "2026-10-08T05:32:48.617727+00:00",
+    "last_updated": "2026-10-08T05:32:48.617727+00:00",
+    "context": {
+      "id": "01M4CZZYK9H557C8VCKJJ37RM0",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "select.termostat_satna_local_protection_state",
+    "state": "Unprotected",
+    "attributes": {
+      "options": [
+        "Unprotected",
+        "NoOperationPossible"
+      ],
+      "friendly_name": "termostat šatna Local protection state"
+    },
+    "last_changed": "2026-10-08T05:32:48.618182+00:00",
+    "last_reported": "2026-10-08T05:32:48.618182+00:00",
+    "last_updated": "2026-10-08T05:32:48.618182+00:00",
+    "context": {
+      "id": "01M4CZZYKAZZQFBRCPYMATJ6M4",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.termostat_satna_battery_level",
+    "state": "47.0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "%",
+      "device_class": "battery",
+      "friendly_name": "termostat šatna Battery level"
+    },
+    "last_changed": "2026-10-08T05:32:48.618865+00:00",
+    "last_reported": "2026-10-08T05:32:48.618865+00:00",
+    "last_updated": "2026-10-08T05:32:48.618865+00:00",
+    "context": {
+      "id": "01M4CZZYKA27PYFNXQXRSABBTZ",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.enyaq_left_seat_heating_with_ac",
+    "state": "off",
+    "attributes": {
+      "device_class": "switch",
+      "friendly_name": "Enyaq Left Seat Heating with AC"
+    },
+    "last_changed": "2026-10-08T05:33:15.080468+00:00",
+    "last_reported": "2026-10-08T05:33:15.080468+00:00",
+    "last_updated": "2026-10-08T05:33:15.080468+00:00",
+    "context": {
+      "id": "01M4D00RE8Y7NKKTKCHN3N2EJA",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.enyaq_right_seat_heating_with_ac",
+    "state": "off",
+    "attributes": {
+      "device_class": "switch",
+      "friendly_name": "Enyaq Right Seat Heating with AC"
+    },
+    "last_changed": "2026-10-08T05:33:15.080544+00:00",
+    "last_reported": "2026-10-08T05:33:15.080544+00:00",
+    "last_updated": "2026-10-08T05:33:15.080544+00:00",
+    "context": {
+      "id": "01M4D00RE8C6KXKXN7NZK3HC6Q",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.enyaq_window_heating_with_ac",
+    "state": "off",
+    "attributes": {
+      "device_class": "switch",
+      "friendly_name": "Enyaq Window Heating with AC"
+    },
+    "last_changed": "2026-10-08T05:33:15.080617+00:00",
+    "last_reported": "2026-10-08T05:33:15.080617+00:00",
+    "last_updated": "2026-10-08T05:33:15.080617+00:00",
+    "context": {
+      "id": "01M4D00RE8AHXAK3QQ6WZZYCPF",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.teplota_obyvak",
+    "state": "21.9892501831055",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "teplota"
+    },
+    "last_changed": "2026-10-09T09:45:49.395889+00:00",
+    "last_reported": "2026-10-09T09:45:49.395889+00:00",
+    "last_updated": "2026-10-09T09:45:49.395889+00:00",
+    "context": {
+      "id": "01M4G0VYJKWZK0BX3CERJBV4WD",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.teplota_venku",
+    "state": "8.53612518310547",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "venku",
+      "icon": "mdi:thermometer"
+    },
+    "last_changed": "2026-10-09T09:45:00.878430+00:00",
+    "last_reported": "2026-10-09T09:45:00.878430+00:00",
+    "last_updated": "2026-10-09T09:45:00.878430+00:00",
+    "context": {
+      "id": "01M4G0TF6EMB14RSZHC8NYZSX5",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.teplota_bazen",
+    "state": "17.4375",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "icon": "mdi:pool",
+      "friendly_name": "Bazén"
+    },
+    "last_changed": "2026-10-09T09:45:28.215530+00:00",
+    "last_reported": "2026-10-09T09:45:28.215530+00:00",
+    "last_updated": "2026-10-09T09:45:28.215530+00:00",
+    "context": {
+      "id": "01M4G0V9WQCBGMX37K1068Q09W",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.teplota_puda",
+    "state": "11.5550107955933",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "Teploměr půda Teplota",
+      "icon": "mdi:thermometer"
+    },
+    "last_changed": "2026-10-09T09:44:34.824920+00:00",
+    "last_reported": "2026-10-09T09:44:34.824920+00:00",
+    "last_updated": "2026-10-09T09:44:34.824920+00:00",
+    "context": {
+      "id": "01M4G0SNR8DXRBDH5JJFNMD4J0",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.teplota_jakub",
+    "state": "23.0098304748535",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "teplota Jakub"
+    },
+    "last_changed": "2026-10-09T09:45:44.471004+00:00",
+    "last_reported": "2026-10-09T09:45:44.471004+00:00",
+    "last_updated": "2026-10-09T09:45:44.471004+00:00",
+    "context": {
+      "id": "01M4G0VSRQYZSVSYPF3PMJWPQJ",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.teplota_klara",
+    "state": "23.1017894744873",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "teplota Klára"
+    },
+    "last_changed": "2026-10-09T09:45:59.717547+00:00",
+    "last_reported": "2026-10-09T09:45:59.717547+00:00",
+    "last_updated": "2026-10-09T09:45:59.717547+00:00",
+    "context": {
+      "id": "01M4G0W8N5HGHSZ6TJ6T34G8KX",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.boiler_temperature_ct200_bypass",
+    "state": "on",
+    "attributes": {
+      "icon": "mdi:electric-switch",
+      "friendly_name": "Boiler temperature CT200 bypass"
+    },
+    "last_changed": "2026-10-08T05:32:52.173079+00:00",
+    "last_reported": "2026-10-08T05:32:52.173079+00:00",
+    "last_updated": "2026-10-08T05:32:52.173079+00:00",
+    "context": {
+      "id": "01M4D0022DCZXPGSJ5K3X6334D",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_dhw_mid_section",
+    "state": "20.6875",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "icon": "mdi:water-boiler",
+      "friendly_name": "Boiler mid"
+    },
+    "last_changed": "2026-10-09T09:34:47.049469+00:00",
+    "last_reported": "2026-10-09T09:34:47.049469+00:00",
+    "last_updated": "2026-10-09T09:34:47.049469+00:00",
+    "context": {
+      "id": "01M4G07QR92G5DWYAZJ233W70H",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_temperature_return",
+    "state": "34.6124992370605",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "icon": "mdi:water-boiler",
+      "friendly_name": "Boiler temperature return"
+    },
+    "last_changed": "2026-10-09T09:45:48.810658+00:00",
+    "last_reported": "2026-10-09T09:45:48.810658+00:00",
+    "last_updated": "2026-10-09T09:45:48.810658+00:00",
+    "context": {
+      "id": "01M4G0VY0AADN7GW9RZ5MPZBV4",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.heating_high_temperature",
+    "state": "True",
+    "attributes": {
+      "friendly_name": "Heating high temperature"
+    },
+    "last_changed": "2026-10-09T04:00:00.273688+00:00",
+    "last_reported": "2026-10-09T04:00:00.273688+00:00",
+    "last_updated": "2026-10-09T04:00:00.273688+00:00",
+    "context": {
+      "id": "01M4FD2QRHR7PR15T0XZPMY3Z5",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.heating_bedroom_high_temperature",
+    "state": "True",
+    "attributes": {
+      "friendly_name": "Heating bedroom high temperature"
+    },
+    "last_changed": "2026-10-09T06:24:38.797516+00:00",
+    "last_reported": "2026-10-09T06:24:38.797516+00:00",
+    "last_updated": "2026-10-09T06:24:38.797516+00:00",
+    "context": {
+      "id": "01M4FNBJWANJWW9JM0NWC17X0B",
+      "parent_id": null,
+      "user_id": "d7d1fe49d4144f8e8f3411c3306e6822"
+    }
+  },
+  {
+    "entity_id": "binary_sensor.heating_high_temperature",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Heating high temperature"
+    },
+    "last_changed": "2026-10-09T04:00:00.171033+00:00",
+    "last_reported": "2026-10-09T04:00:00.171033+00:00",
+    "last_updated": "2026-10-09T04:00:00.171033+00:00",
+    "context": {
+      "id": "01M4FD2QNBEZGZZ6XV3QZ0MFJV",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.heating_bedroom_high_temperature",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Heating bedroom high temperature"
+    },
+    "last_changed": "2026-10-09T06:24:38.797304+00:00",
+    "last_reported": "2026-10-09T06:24:38.797304+00:00",
+    "last_updated": "2026-10-09T06:24:38.797304+00:00",
+    "context": {
+      "id": "01M4FNBJWANJWW9JM0NWC17X0B",
+      "parent_id": null,
+      "user_id": "d7d1fe49d4144f8e8f3411c3306e6822"
+    }
+  },
+  {
+    "entity_id": "sensor.heating_total_demand",
+    "state": "8",
+    "attributes": {
+      "rooms_needing_heat": "loznice(68%)",
+      "unit_of_measurement": "%",
+      "icon": "mdi:radiator",
+      "friendly_name": "Heating Total Demand"
+    },
+    "last_changed": "2026-10-09T09:15:34.241843+00:00",
+    "last_reported": "2026-10-09T09:44:52.279146+00:00",
+    "last_updated": "2026-10-09T09:44:52.279146+00:00",
+    "context": {
+      "id": "01M4G0T6SMZA1JC2MVZYJ5TYND",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.heating_efficiency",
+    "state": "60",
+    "attributes": {
+      "rating": "Dobrá",
+      "flow_temp_score": 93,
+      "modulation_score": 10,
+      "unit_of_measurement": "%",
+      "icon": "mdi:leaf",
+      "friendly_name": "Heating Efficiency"
+    },
+    "last_changed": "2026-10-09T09:45:36.404612+00:00",
+    "last_reported": "2026-10-09T09:46:06.394829+00:00",
+    "last_updated": "2026-10-09T09:46:06.394829+00:00",
+    "context": {
+      "id": "01M4G0WF5S2M6RJEG61F2V7B97",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.heating_efficiency_average",
+    "state": "0",
+    "attributes": {
+      "min": 0,
+      "max": 0,
+      "samples": 0,
+      "unit_of_measurement": "%",
+      "icon": "mdi:chart-line",
+      "friendly_name": "Heating Efficiency Average"
+    },
+    "last_changed": "2026-10-08T05:32:52.197380+00:00",
+    "last_reported": "2026-10-08T05:32:52.197380+00:00",
+    "last_updated": "2026-10-08T05:32:52.197380+00:00",
+    "context": {
+      "id": "01M4D002359NHE669WW5MNC5NC",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.heating_flow_status",
+    "state": "Kondenzační (36°C)",
+    "attributes": {
+      "icon": "mdi:snowflake",
+      "friendly_name": "Heating Flow Status"
+    },
+    "last_changed": "2026-10-09T09:43:06.431208+00:00",
+    "last_reported": "2026-10-09T09:43:06.431208+00:00",
+    "last_updated": "2026-10-09T09:43:06.431208+00:00",
+    "context": {
+      "id": "01M4G0PZDYNB49F9WV25S9YYXM",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.heating_true_efficiency_daily",
+    "state": "118.3",
+    "attributes": {
+      "state_class": "measurement",
+      "gas_kwh": 9.9,
+      "heat_kwh": 11.71,
+      "rating": "Výborná (plná kondenzace)",
+      "unit_of_measurement": "%",
+      "icon": "mdi:fire-circle",
+      "friendly_name": "Heating True Efficiency Daily"
+    },
+    "last_changed": "2026-10-09T09:46:06.400222+00:00",
+    "last_reported": "2026-10-09T09:46:06.400222+00:00",
+    "last_updated": "2026-10-09T09:46:06.400222+00:00",
+    "context": {
+      "id": "01M4G0WF5Z077TFQ50C5VRJ9CW",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.heating_true_efficiency_weekly",
+    "state": "118.3",
+    "attributes": {
+      "state_class": "measurement",
+      "gas_kwh": 9.9,
+      "heat_kwh": 11.7,
+      "unit_of_measurement": "%",
+      "icon": "mdi:fire-circle",
+      "friendly_name": "Heating True Efficiency Weekly"
+    },
+    "last_changed": "2026-10-09T09:46:06.400586+00:00",
+    "last_reported": "2026-10-09T09:46:06.400586+00:00",
+    "last_updated": "2026-10-09T09:46:06.400586+00:00",
+    "context": {
+      "id": "01M4G0WF5ZH1E2XJYFX55PBF4G",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.heating_true_efficiency_total",
+    "state": "108.2",
+    "attributes": {
+      "gas_kwh": 13704,
+      "heat_kwh": 14826,
+      "unit_of_measurement": "%",
+      "icon": "mdi:fire-circle",
+      "friendly_name": "Heating True Efficiency Total"
+    },
+    "last_changed": "2026-10-09T08:27:35.584395+00:00",
+    "last_reported": "2026-10-09T09:17:46.421237+00:00",
+    "last_updated": "2026-10-09T09:17:46.421237+00:00",
+    "context": {
+      "id": "01M4FZ8K1MB3QJ9C92A0D0QD0N",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.heating_return_temperature_estimated",
+    "state": "34.0",
+    "attributes": {
+      "state_class": "measurement",
+      "calculation": "ΔT = Q / (ṁ × c)",
+      "heat_output_w": 3100,
+      "flow_rate_kgs": 0.303,
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "icon": "mdi:thermometer-chevron-down",
+      "friendly_name": "Heating Return Temperature Estimated"
+    },
+    "last_changed": "2026-10-09T09:46:06.393950+00:00",
+    "last_reported": "2026-10-09T09:46:06.393950+00:00",
+    "last_updated": "2026-10-09T09:46:06.393950+00:00",
+    "context": {
+      "id": "01M4G0WF5S2M6RJEG61F2V7B97",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.heating_flow_return_differential",
+    "state": "2.4",
+    "attributes": {
+      "state_class": "measurement",
+      "flow_temp": 36.4,
+      "return_temp": 34.0,
+      "status": "Optimální (vysoký průtok)",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "icon": "mdi:thermometer-lines",
+      "friendly_name": "Heating Flow Return Differential"
+    },
+    "last_changed": "2026-10-09T09:45:26.401090+00:00",
+    "last_reported": "2026-10-09T09:46:06.395658+00:00",
+    "last_updated": "2026-10-09T09:46:06.395658+00:00",
+    "context": {
+      "id": "01M4G0WF5S2M6RJEG61F2V7B97",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.heating_condensing_mode",
+    "state": "Kondenzuje",
+    "attributes": {
+      "return_temp": 34.0,
+      "threshold": "< 55°C for condensing",
+      "efficiency_boost": "+10-15% efficiency",
+      "icon": "mdi:water-opacity",
+      "friendly_name": "Heating Condensing Mode"
+    },
+    "last_changed": "2026-10-09T09:39:06.424313+00:00",
+    "last_reported": "2026-10-09T09:46:06.395447+00:00",
+    "last_updated": "2026-10-09T09:46:06.395447+00:00",
+    "context": {
+      "id": "01M4G0WF5S2M6RJEG61F2V7B97",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.heating_trv_throttling",
+    "state": "high",
+    "attributes": {
+      "pump_modulation": "83%",
+      "burner_power": "10%",
+      "ratio": 8.3,
+      "explanation": "TRVs značně uzavřeny - čerpadlo 83.0%, hořák pouze 10.0%",
+      "icon": "mdi:valve",
+      "friendly_name": "Heating TRV Throttling"
+    },
+    "last_changed": "2026-10-09T09:39:06.429918+00:00",
+    "last_reported": "2026-10-09T09:39:26.445536+00:00",
+    "last_updated": "2026-10-09T09:39:26.445536+00:00",
+    "context": {
+      "id": "01M4G0G8KBB4SZQXPN5P38E2VN",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.boiler_service_code_text",
+    "state": "Topení",
+    "attributes": {
+      "code": 200,
+      "category": "operation",
+      "icon": "mdi:information-outline",
+      "friendly_name": "Boiler Service Code Text"
+    },
+    "last_changed": "2026-10-09T09:39:06.432004+00:00",
+    "last_reported": "2026-10-09T09:39:06.432004+00:00",
+    "last_updated": "2026-10-09T09:39:06.432004+00:00",
+    "context": {
+      "id": "01M4G0FN1ZB98N6JX2890WE4WR",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.thermal_analysis_boiler_efficiency",
+    "state": "100.0",
+    "attributes": {
+      "heat_output_w": 3100,
+      "gas_input_w": 3100,
+      "unit_of_measurement": "%",
+      "icon": "mdi:percent",
+      "friendly_name": "Thermal Analysis Boiler Efficiency"
+    },
+    "last_changed": "2026-10-09T09:39:06.422353+00:00",
+    "last_reported": "2026-10-09T09:39:26.450014+00:00",
+    "last_updated": "2026-10-09T09:39:26.450014+00:00",
+    "context": {
+      "id": "01M4G0G8KBB4SZQXPN5P38E2VN",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.termostat_galerie",
+    "state": "23",
+    "attributes": {
+      "unit_of_measurement": "°C",
+      "friendly_name": "Thermostat galerie"
+    },
+    "last_changed": "2026-10-09T06:00:45.399384+00:00",
+    "last_reported": "2026-10-09T06:00:45.399384+00:00",
+    "last_updated": "2026-10-09T06:00:45.399384+00:00",
+    "context": {
+      "id": "01M4FKZV2N5TP0SKCT8FS73SGX",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.termostat_nad_schody",
+    "state": "23",
+    "attributes": {
+      "unit_of_measurement": "°C",
+      "friendly_name": "Thermostat nad schody"
+    },
+    "last_changed": "2026-10-09T06:03:58.576427+00:00",
+    "last_reported": "2026-10-09T06:03:58.576427+00:00",
+    "last_updated": "2026-10-09T06:03:58.576427+00:00",
+    "context": {
+      "id": "01M4FM5QQDQ4AMAG51ZMZWH0SQ",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.termostat_pod_schody",
+    "state": "23.5",
+    "attributes": {
+      "unit_of_measurement": "°C",
+      "friendly_name": "Thermostat pod schody"
+    },
+    "last_changed": "2026-10-09T06:04:43.257310+00:00",
+    "last_reported": "2026-10-09T06:04:43.257310+00:00",
+    "last_updated": "2026-10-09T06:04:43.257310+00:00",
+    "context": {
+      "id": "01M4FM73BRYQXSPS3YCXTBY073",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.termostat_obyvak",
+    "state": "21",
+    "attributes": {
+      "unit_of_measurement": "°C",
+      "friendly_name": "Thermostat obyvak"
+    },
+    "last_changed": "2026-10-09T08:52:46.888043+00:00",
+    "last_reported": "2026-10-09T08:52:46.888043+00:00",
+    "last_updated": "2026-10-09T08:52:46.888043+00:00",
+    "context": {
+      "id": "01M4FXTTN5CX1CCVW6V652AB0Q",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.termostat_jidelna",
+    "state": "21",
+    "attributes": {
+      "unit_of_measurement": "°C",
+      "friendly_name": "Thermostat jidelna"
+    },
+    "last_changed": "2026-10-09T08:51:27.446140+00:00",
+    "last_reported": "2026-10-09T08:51:27.446140+00:00",
+    "last_updated": "2026-10-09T08:51:27.446140+00:00",
+    "context": {
+      "id": "01M4FXRD2K5VFT3FX60ZCB5NXZ",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.termostat_klara",
+    "state": "20",
+    "attributes": {
+      "unit_of_measurement": "°C",
+      "friendly_name": "Thermostat Klara"
+    },
+    "last_changed": "2026-10-08T05:32:52.219963+00:00",
+    "last_reported": "2026-10-08T05:32:52.219963+00:00",
+    "last_updated": "2026-10-08T05:32:52.219963+00:00",
+    "context": {
+      "id": "01M4D0023V3P4F8XGWX8AYNYFW",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.termostat_jakub",
+    "state": "22",
+    "attributes": {
+      "unit_of_measurement": "°C",
+      "friendly_name": "Thermostat Jakub"
+    },
+    "last_changed": "2026-10-09T07:06:30.822304+00:00",
+    "last_reported": "2026-10-09T07:06:30.822304+00:00",
+    "last_updated": "2026-10-09T07:06:30.822304+00:00",
+    "context": {
+      "id": "01M4FQR813J2G9NEM4WYB3EBA4",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.termostat_loznice",
+    "state": "23",
+    "attributes": {
+      "unit_of_measurement": "°C",
+      "friendly_name": "Thermostat ložnice"
+    },
+    "last_changed": "2026-10-09T06:28:47.716431+00:00",
+    "last_reported": "2026-10-09T06:28:47.716431+00:00",
+    "last_updated": "2026-10-09T06:28:47.716431+00:00",
+    "context": {
+      "id": "01M4FNK5Z274FTBV81XA8TPPK9",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.termostat_pracovna",
+    "state": "19",
+    "attributes": {
+      "unit_of_measurement": "°C",
+      "friendly_name": "Thermostat pracovna"
+    },
+    "last_changed": "2026-10-09T06:04:41.841606+00:00",
+    "last_reported": "2026-10-09T06:04:41.841606+00:00",
+    "last_updated": "2026-10-09T06:04:41.841606+00:00",
+    "context": {
+      "id": "01M4FM71ZH6RPP5HFDBRF9RA2W",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.heating_monitor_boiler_online",
+    "state": "on",
+    "attributes": {
+      "device_class": "connectivity",
+      "friendly_name": "Monitor: Boiler Online"
+    },
+    "last_changed": "2026-10-09T08:17:55.610513+00:00",
+    "last_reported": "2026-10-09T08:17:55.610513+00:00",
+    "last_updated": "2026-10-09T08:17:55.610513+00:00",
+    "context": {
+      "id": "01M4FVV0CSE4QG58KW3E1FM004",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.heating_monitor_weather_station",
+    "state": "on",
+    "attributes": {
+      "device_class": "connectivity",
+      "friendly_name": "Monitor: Weather Station Responding"
+    },
+    "last_changed": "2026-10-08T05:33:47.358409+00:00",
+    "last_reported": "2026-10-08T05:33:47.358409+00:00",
+    "last_updated": "2026-10-08T05:33:47.358409+00:00",
+    "context": {
+      "id": "01M4D01QYYXNCZF63786SWV9DZ",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.heating_monitor_flow_temp_sane",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Monitor: Flow Temperature Sane"
+    },
+    "last_changed": "2026-10-09T08:17:55.610746+00:00",
+    "last_reported": "2026-10-09T08:17:55.610746+00:00",
+    "last_updated": "2026-10-09T08:17:55.610746+00:00",
+    "context": {
+      "id": "01M4FVV0CSE4QG58KW3E1FM004",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.heating_monitor_sensors_alive",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Monitor: Critical Sensors Alive"
+    },
+    "last_changed": "2026-10-09T08:17:55.611087+00:00",
+    "last_reported": "2026-10-09T08:17:55.611087+00:00",
+    "last_updated": "2026-10-09T08:17:55.611087+00:00",
+    "context": {
+      "id": "01M4FVV0CSE4QG58KW3E1FM004",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.heating_monitor_status",
+    "state": "OK",
+    "attributes": {
+      "icon": "mdi:check-circle",
+      "friendly_name": "Heating System Health"
+    },
+    "last_changed": "2026-10-09T08:17:55.613058+00:00",
+    "last_reported": "2026-10-09T08:17:55.619795+00:00",
+    "last_updated": "2026-10-09T08:17:55.619795+00:00",
+    "context": {
+      "id": "01M4FVV0CSE4QG58KW3E1FM004",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.meteostanice_outdoor_temperature",
+    "state": "8.5",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "friendly_name": "Meteostanice Outdoor Temperature"
+    },
+    "last_changed": "2026-10-09T09:43:47.178155+00:00",
+    "last_reported": "2026-10-09T09:43:47.178155+00:00",
+    "last_updated": "2026-10-09T09:43:47.178155+00:00",
+    "context": {
+      "id": "01M4G0R77A0WQQ1R5PXR8NASGQ",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.meteostanice_solar_lux",
+    "state": "22478.5",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "lx",
+      "device_class": "illuminance",
+      "friendly_name": "Meteostanice Solar Lux"
+    },
+    "last_changed": "2026-10-09T09:45:47.414881+00:00",
+    "last_reported": "2026-10-09T09:45:47.414881+00:00",
+    "last_updated": "2026-10-09T09:45:47.414881+00:00",
+    "context": {
+      "id": "01M4G0VWMP8C141J83VSF2Q7RY",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.meteostanice_solar_radiation",
+    "state": "177.58",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "W/m²",
+      "device_class": "irradiance",
+      "friendly_name": "Meteostanice Solar Radiation"
+    },
+    "last_changed": "2026-10-09T09:45:47.414470+00:00",
+    "last_reported": "2026-10-09T09:45:47.414470+00:00",
+    "last_updated": "2026-10-09T09:45:47.414470+00:00",
+    "context": {
+      "id": "01M4G0VWMPFKZG6GAV6BR9VXD9",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.zachod_podlaha_power",
+    "state": "unavailable",
+    "attributes": {
+      "restored": true,
+      "state_class": "measurement",
+      "device_class": "power",
+      "friendly_name": "záchod podlaha Power",
+      "supported_features": 0,
+      "unit_of_measurement": "W"
+    },
+    "last_changed": "2026-10-08T05:33:05.290344+00:00",
+    "last_reported": "2026-10-08T05:33:05.290344+00:00",
+    "last_updated": "2026-10-08T05:33:05.290344+00:00",
+    "context": {
+      "id": "01M4D00EWAK2CW65PWNTTTS5P7",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.heating_base_flow_temp",
+    "state": "44.6",
+    "attributes": {
+      "friendly_name": "Heating Base Flow Temp",
+      "unit_of_measurement": "C",
+      "icon": "mdi:thermometer",
+      "description": "Flow temp from heating curve based on outdoor temp",
+      "last_changed": "2026-10-09T09:44:10.051119+00:00",
+      "last_reported": "2026-10-09T09:44:10.051119+00:00",
+      "last_updated": "2026-10-09T09:44:10.051119+00:00",
+      "context": {
+        "id": "01M4G0RXJ3RW0VV6WKK41KYRTT",
+        "user_id": "e67ed8ecc4c849cdab5b4412afe01b37"
+      }
+    },
+    "last_changed": "2026-10-09T09:44:10.051119+00:00",
+    "last_reported": "2026-10-09T09:46:10.047168+00:00",
+    "last_updated": "2026-10-09T09:46:10.047168+00:00",
+    "context": {
+      "id": "01M4G0WJQZ78F7QD8R2RW0FR89",
+      "parent_id": null,
+      "user_id": "e67ed8ecc4c849cdab5b4412afe01b37"
+    }
+  },
+  {
+    "entity_id": "sensor.heating_weather_adjustment",
+    "state": "-0.3",
+    "attributes": {
+      "friendly_name": "Heating Weather Adjustment",
+      "unit_of_measurement": "C",
+      "icon": "mdi:weather-windy",
+      "description": "Adjustment for wind (+) and solar (-)",
+      "last_changed": "2026-10-09T09:41:10.049955+00:00",
+      "last_reported": "2026-10-09T09:41:10.049955+00:00",
+      "last_updated": "2026-10-09T09:41:10.049955+00:00",
+      "context": {
+        "id": "01M4G0KDS12C6KX2T1076NC930",
+        "user_id": "e67ed8ecc4c849cdab5b4412afe01b37"
+      }
+    },
+    "last_changed": "2026-10-09T09:46:10.066918+00:00",
+    "last_reported": "2026-10-09T09:46:10.066918+00:00",
+    "last_updated": "2026-10-09T09:46:10.066918+00:00",
+    "context": {
+      "id": "01M4G0WJRJNT4MNPQRHJQN1M7F",
+      "parent_id": null,
+      "user_id": "e67ed8ecc4c849cdab5b4412afe01b37"
+    }
+  },
+  {
+    "entity_id": "sensor.heating_room_adjustment",
+    "state": "-8.6",
+    "attributes": {
+      "friendly_name": "Heating Room Adjustment",
+      "unit_of_measurement": "C",
+      "icon": "mdi:home-thermometer",
+      "mode": "proportional",
+      "description": "Room temp error adjustment",
+      "last_changed": "2026-10-09T09:43:10.070511+00:00",
+      "last_reported": "2026-10-09T09:43:10.070511+00:00",
+      "last_updated": "2026-10-09T09:43:10.070511+00:00",
+      "context": {
+        "id": "01M4G0Q2ZPG36CSA786T1DSRR5",
+        "user_id": "e67ed8ecc4c849cdab5b4412afe01b37"
+      }
+    },
+    "last_changed": "2026-10-09T09:46:10.085141+00:00",
+    "last_reported": "2026-10-09T09:46:10.085141+00:00",
+    "last_updated": "2026-10-09T09:46:10.085141+00:00",
+    "context": {
+      "id": "01M4G0WJS51WZ8BXYANN8J2BDR",
+      "parent_id": null,
+      "user_id": "e67ed8ecc4c849cdab5b4412afe01b37"
+    }
+  },
+  {
+    "entity_id": "sensor.heating_comfort_boost",
+    "state": "0.0",
+    "attributes": {
+      "friendly_name": "Heating Comfort Boost",
+      "unit_of_measurement": "C",
+      "icon": "mdi:arrow-up-bold",
+      "description": "Manual comfort boost when enabled",
+      "last_changed": "2026-10-09T06:00:10.096063+00:00",
+      "last_reported": "2026-10-09T09:44:10.085877+00:00",
+      "last_updated": "2026-10-09T09:44:10.085877+00:00",
+      "context": {
+        "id": "01M4G0RXK5Y9P5S1QWRC2D6P9X",
+        "user_id": "e67ed8ecc4c849cdab5b4412afe01b37"
+      }
+    },
+    "last_changed": "2026-10-09T06:00:10.096063+00:00",
+    "last_reported": "2026-10-09T09:46:10.099870+00:00",
+    "last_updated": "2026-10-09T09:46:10.099870+00:00",
+    "context": {
+      "id": "01M4G0WJSKC58QZXR6R8HNSS5P",
+      "parent_id": null,
+      "user_id": "e67ed8ecc4c849cdab5b4412afe01b37"
+    }
+  },
+  {
+    "entity_id": "sensor.heating_guest_boost",
+    "state": "0.0",
+    "attributes": {
+      "friendly_name": "Heating Guest Boost",
+      "unit_of_measurement": "C",
+      "icon": "mdi:account-group",
+      "description": "Automatic boost when house mode is guests",
+      "last_changed": "2026-10-09T06:00:10.109792+00:00",
+      "last_reported": "2026-10-09T09:44:10.101526+00:00",
+      "last_updated": "2026-10-09T09:44:10.101526+00:00",
+      "context": {
+        "id": "01M4G0RXKN4PPRR9RBY03G3NYP",
+        "user_id": "e67ed8ecc4c849cdab5b4412afe01b37"
+      }
+    },
+    "last_changed": "2026-10-09T06:00:10.109792+00:00",
+    "last_reported": "2026-10-09T09:46:10.106699+00:00",
+    "last_updated": "2026-10-09T09:46:10.106699+00:00",
+    "context": {
+      "id": "01M4G0WJSTA06GQ3MFVEZ6CWW1",
+      "parent_id": null,
+      "user_id": "e67ed8ecc4c849cdab5b4412afe01b37"
+    }
+  },
+  {
+    "entity_id": "sensor.heating_weighted_error",
+    "state": "3.17",
+    "attributes": {
+      "friendly_name": "Heating Weighted Error",
+      "unit_of_measurement": "C",
+      "icon": "mdi:scale-balance",
+      "description": "Area-weighted room temp error (+ warm, - cold)",
+      "last_changed": "2026-10-09T09:44:10.115535+00:00",
+      "last_reported": "2026-10-09T09:44:10.115535+00:00",
+      "last_updated": "2026-10-09T09:44:10.115535+00:00",
+      "context": {
+        "id": "01M4G0RXM3B85R556Y3HC0MD6Y",
+        "user_id": "e67ed8ecc4c849cdab5b4412afe01b37"
+      }
+    },
+    "last_changed": "2026-10-09T09:46:10.113120+00:00",
+    "last_reported": "2026-10-09T09:46:10.113120+00:00",
+    "last_updated": "2026-10-09T09:46:10.113120+00:00",
+    "context": {
+      "id": "01M4G0WJT153KB6FF1A2GMMSAC",
+      "parent_id": null,
+      "user_id": "e67ed8ecc4c849cdab5b4412afe01b37"
+    }
+  },
+  {
+    "entity_id": "sensor.heating_system_state",
+    "state": "active",
+    "attributes": {
+      "friendly_name": "Heating System State",
+      "icon": "mdi:state-machine",
+      "target_flow": 36,
+      "last_changed": "2026-10-09T06:00:10.152681+00:00",
+      "last_reported": "2026-10-09T09:43:10.122192+00:00",
+      "last_updated": "2026-10-09T09:43:10.122192+00:00",
+      "context": {
+        "id": "01M4G0Q31AHF7QTQZ3NWFD0EH4",
+        "user_id": "e67ed8ecc4c849cdab5b4412afe01b37"
+      }
+    },
+    "last_changed": "2026-10-09T06:00:10.152681+00:00",
+    "last_reported": "2026-10-09T09:46:10.122127+00:00",
+    "last_updated": "2026-10-09T09:46:10.122127+00:00",
+    "context": {
+      "id": "01M4G0WJTAYPHD64DWZVJE2K28",
+      "parent_id": null,
+      "user_id": "e67ed8ecc4c849cdab5b4412afe01b37"
+    }
+  }
+]
